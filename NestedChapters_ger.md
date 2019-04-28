@@ -18,7 +18,7 @@ Eltern Kapitel
 +Verschachteltes Kapitel Level 1
 ++Verschachteltes Kapitel Level 2
 
-Dies ist die meist genutze Form wenn alle Kapitel auf einer Ebene dargestellt werden. Zum Beispiel in einem Popup Menü.
+Dies ist die meist genutze Form, wenn alle Kapitel auf einer Ebene dargestellt werden. Zum Beispiel in einem Popup Menü.
 
 Eine weitere Möglichkeit wäre, die Verschachtelungsstruktur in einem Popup Menü nachzubilden, so dass verschachtelte Kapitel in einem Untermenü angezeigt werden.
 Für ein Matroska Menü auf der Basis von Kapitel-Segment-Verknüpfung, werden oft sehr viele Kapitel benutzt, manchmal fast 1000. Diese Anzahl dann in einer einzigen Ebene darzustellen ist nicht möglich. Man muss dann sehr viel suchen und scrollen im Kapitel Menü, um den gewünschten Kapitel zu finden.
