@@ -1,5 +1,5 @@
 # Matroska Nested Chapters
-Nested chapters behave in a similar way to the [Basic Chapters] (BasicChapters.md) when the edition flag "ordered" is set to false. But there are two conditions that should be considered.
+Nested chapters behave in a similar way to the [Basic Chapters](BasicChapters.md) when the edition flag "ordered" is set to false. But there are two conditions that should be considered.
 
 1. Condition: The start times of the nested chapters must not be smaller than the start time of the parent chapter.
 2. Condition: The start times must be less than the start time of the next parent chapter.
