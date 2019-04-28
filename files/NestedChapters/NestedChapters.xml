@@ -54,15 +54,35 @@
           <ChapterLanguage>eng</ChapterLanguage>
         </ChapterDisplay>
       </ChapterAtom>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>83876678951029934</ChapterUID>
+      <ChapterTimeStart>00:00:20.000000000</ChapterTimeStart>
+      <ChapterFlagHidden>0</ChapterFlagHidden>
+      <ChapterFlagEnabled>1</ChapterFlagEnabled>
+      <ChapterDisplay>
+        <ChapterString>Parent Chapter 2</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
       <ChapterAtom>
-        <ChapterUID>3800720697586829658</ChapterUID>
+        <ChapterUID>7389213882105682</ChapterUID>
         <ChapterTimeStart>00:00:20.000000000</ChapterTimeStart>
         <ChapterFlagHidden>0</ChapterFlagHidden>
         <ChapterFlagEnabled>1</ChapterFlagEnabled>
         <ChapterDisplay>
-          <ChapterString>Nested Chapter 3</ChapterString>
+          <ChapterString>Nested Parent Chapter Level 1</ChapterString>
           <ChapterLanguage>eng</ChapterLanguage>
         </ChapterDisplay>
+        <ChapterAtom>
+          <ChapterUID>3800720697586829658</ChapterUID>
+          <ChapterTimeStart>00:00:20.000000000</ChapterTimeStart>
+          <ChapterFlagHidden>0</ChapterFlagHidden>
+          <ChapterFlagEnabled>1</ChapterFlagEnabled>
+          <ChapterDisplay>
+            <ChapterString>Nested Chapter 3</ChapterString>
+            <ChapterLanguage>eng</ChapterLanguage>
+          </ChapterDisplay>
+        </ChapterAtom>
       </ChapterAtom>
       <ChapterAtom>
         <ChapterUID>1606725274530</ChapterUID>
@@ -77,11 +97,11 @@
     </ChapterAtom>
     <ChapterAtom>
       <ChapterUID>13784328166389779860</ChapterUID>
-      <ChapterTimeStart>00:00:40.000000000</ChapterTimeStart>
+      <ChapterTimeStart>00:00:30.000000000</ChapterTimeStart>
       <ChapterFlagHidden>0</ChapterFlagHidden>
       <ChapterFlagEnabled>0</ChapterFlagEnabled>
       <ChapterDisplay>
-        <ChapterString>Parent Chapter 2 (disabled)</ChapterString>
+        <ChapterString>Parent Chapter 3 (disabled)</ChapterString>
         <ChapterLanguage>eng</ChapterLanguage>
       </ChapterDisplay>
       <ChapterAtom>
@@ -101,7 +121,7 @@
       <ChapterFlagHidden>1</ChapterFlagHidden>
       <ChapterFlagEnabled>1</ChapterFlagEnabled>
       <ChapterDisplay>
-        <ChapterString>Parent Chapter 2 (hidden)</ChapterString>
+        <ChapterString>Parent Chapter 4 (hidden)</ChapterString>
         <ChapterLanguage>eng</ChapterLanguage>
       </ChapterDisplay>
       <ChapterAtom>
