@@ -9,6 +9,7 @@ In diesem Fall müssen alle verschachtelten Kapitel ignoriert werden.
 
 #### Unsichtbares Eltern Kapitel
 Die aktuellen Matroska Specs besagen, dass dann alle verschachtelten Kapitel ebenfalls unsichtbar sind, auch wenn dessen eigener Schalter "unsichtbar" nicht aktiviert ist. Allerdings ist dies nicht der Fall für die Praxis. Alle Player die ich ausprobiert habe zeigen alle verschachtelten Kapitel die selbst nicht "unsichtbar" sind an.
+Dieses Verhalten ist sehr nützlich/wichtig für das Erstellen von Matroska Menu Strukturen auf der Basis von Kapitel-Segment-Verknüpfung.
 
 #### Presentation der verschachtelten Kapitel im Player
 Die meisten Player benutzen ein "+" vor dem Kapitelnamen um das Level der Verschachtelung anzuzeigen. Ein Kapitel welches in der 2.ten Verschachtelungsebene liegt hat zwei "+" vor dem Namen.
@@ -19,7 +20,7 @@ Eltern Kapitel
 
 Dies ist die meist genutze Form wenn alle Kapitel auf einer Ebene dargestellt werden. Zum Beispiel in einem Popup Menü.
 
-Eine weitere Möglichkeit wäre, die Verschachtelungsstruktur in einem Popup Menü nachzubilden, so dass verschachtelte Kapitel in einem Untermenü angezeigt werden. Dieses Verhalten ist sehr nützlich/wichtig für das Erstellen von Matroska Menu Strukturen auf der Basis von Kapitel-Segment-Verknüpfung.
+Eine weitere Möglichkeit wäre, die Verschachtelungsstruktur in einem Popup Menü nachzubilden, so dass verschachtelte Kapitel in einem Untermenü angezeigt werden.
 
 
 ### Test Dateien
