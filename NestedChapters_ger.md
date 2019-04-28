@@ -8,7 +8,7 @@ Verschachtelte Kapitel verhalten sich ähnlich wie die [Basis Kapitel](BasicChap
 In diesem Fall müssen alle verschachtelten Kapitel ignoriert werden.
 
 #### Unsichtbares Eltern Kapitel
-Die aktuellen Matroska Specs besagen, dass dann alle verschachtelten Kapitel ebenfalls unsichtbar sind, auch wenn dessen eigener Schalter "unsichtbar" nicht aktiviert ist. Allerdings ist dies nicht der Fall für die Praxis. Alle Player die ich ausprobiert habe zeigen alle verschachtelten Kapitel die selbst nicht "unsichtbar" sind an.
+Die aktuellen Matroska Specs besagen, dass dann alle verschachtelten Kapitel ebenfalls unsichtbar sind, auch wenn dessen eigener Schalter "unsichtbar" nicht aktiviert ist. Allerdings ist dies nicht der Fall für die Praxis. Alle Player die ich ausprobiert habe zeigen alle verschachtelten Kapitel, die selbst sichtbar sind, an.
 Dieses Verhalten ist sehr nützlich/wichtig für das Erstellen von Matroska Menu Strukturen auf der Basis von Kapitel-Segment-Verknüpfung.
 
 #### Presentation der verschachtelten Kapitel im Player
