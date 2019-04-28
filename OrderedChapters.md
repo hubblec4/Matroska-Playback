@@ -9,3 +9,7 @@ There is a special case where the playing time of a chapter is 0. Such an ordere
 
 #### Disabled chapters
 The chapter named "disabled" is disabled and will not be used. Therefore, the total playing time is only 55 seconds and not 60 seconds (file playing time).
+
+### Test files
+[XML Chapters file (ordered chapter times)](https://github.com/hubblec4/Matroska-Playback/blob/master/files/OrderedChapters/OrderedChapters_ordered.xml)
+Bei diesem Beispiel wird das Video "normal" von vorn nach hinten abgespielt. Version 1 in der Matroska Datei.
