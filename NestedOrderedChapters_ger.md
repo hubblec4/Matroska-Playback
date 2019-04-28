@@ -17,7 +17,7 @@ Kap 1       | 0s    | 10s  | 10s   | 10s
 Kap 2       | 30s   | 50s  | 20s   | 60s
 +Kap 2.1    | 50s   | 60s  | 10s   | 70s
 
-Die Matroska Test Datei wird in keinem Player so abgespielt, wie es hier beschrieben ist.
+Die Matroska Test Datei wird in keinem Player so abgespielt, wie es hier beschrieben ist, da nur die beiden Top-Level Kapitel (Kap 1 und Kap 2) verwendet werden. Daher beträgt die Spieldauer nur 40 Sekunden anstatt 70.
 
 ### Test Dateien
 [XML Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/NestedOrderedChapters/NestedOrderedChapters.xml)
