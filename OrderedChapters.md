@@ -5,7 +5,7 @@ In this type of chapters, a playing time has to be determined for each chapter (
 
 A negative playing time is illegal and such a chapter is completely ignored.
 
-There is a special case where the playing time of a chapter is 0. Such an ordered chapter then behaves like a [Basic Chapter] (BasicChapters.md). The start time must be within the total playing time and is only used as a chapter marker.
+There is a special case where the playing time of a chapter is 0. Such an ordered chapter then behaves like a [Basic Chapter](BasicChapters.md). The start time must be within the total playing time and is only used as a chapter marker.
 
 #### Disabled chapters
 The chapter named "disabled" is disabled and will not be used. Therefore, the total playing time is only 55 seconds and not 60 seconds (file playing time).
