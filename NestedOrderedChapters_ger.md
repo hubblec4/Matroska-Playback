@@ -15,7 +15,7 @@ Kap 1       | 0s    | 10s  | 10s   | 10s
 +Kap 1.2    | 50s   | 60s  | 10s   | 30s
 ++Kap 1.2.1 | 20s   | 30s  | 10s   | 40s
 Kap 2       | 30s   | 50s  | 20s   | 60s
-+Kap 2.1    | 50s   | 60s  | 10s   | 70s
++Kap 2.1    | 30s   | 40s  | 10s   | 70s
 
 ### Test Dateien
 [XML Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/NestedChapters/NestedChapters.xml)
