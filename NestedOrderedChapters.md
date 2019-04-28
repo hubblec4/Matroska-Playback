@@ -17,7 +17,7 @@ Chp 1       | 0s    | 10s  | 10s      | 10s
 Chp 2       | 30s   | 50s  | 20s      | 60s
 +Chp 2.1    | 50s   | 60s  | 10s      | 70s
 
-The Matroska test file will not play in any player as described here.
+The Matroska test file is not played in any player as described here, as only the two top-level chapters (Chp 1 and Chp 2) are used. Therefore, the playing time is only 40 seconds instead of 70.
 
 ### Test files
 [XML Chapter file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/NestedOrderedChapters/NestedOrderedChapters.xml)
