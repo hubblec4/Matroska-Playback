@@ -7,11 +7,11 @@ Eine negative Spieldauer ist illegal und ein solches Kapitel wird vollkommen ign
 
 Es gibt einen Spezialfall, bei dem die Spieldauer eines Kapitels 0 ist. Ein solches reihenfolgentreues Kapitel verhält sich dann wie ein [Basis Kapitel](BasicChapters_ger.md). Die Startzeit muss innerhalb der Gesamtspieldauer liegen und wird als Kapitelmarke verwendet.
 
-##### Deaktivierte Kapitel
+#### Deaktivierte Kapitel
 
 Das Kapitel mit dem Namen "disabled" ist deaktiviert und wird nicht verwendet. Daher ist die Gesamtspieldauer nur 55 Sekunden und nicht 60 Sekunden(Datei-Spieldauer).
 
-#### Test Dateien
+### Test Dateien
 [XML Kapitel Datei (geordnete Kapitelzeiten)](https://github.com/hubblec4/Matroska-Playback/blob/master/files/OrderedChapters/OrderedChapters_ordered.xml)
 
 Bei diesem Beispiel wird das Video "normal" von vorn nach hinten abgespielt. Version 1 in der Matroska Datei.
