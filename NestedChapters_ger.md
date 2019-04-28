@@ -11,7 +11,7 @@ In diesem Fall müssen alle verschachtelten Kapitel ignoriert werden.
 Die aktuellen Matroska Specs besagen, dass dann alle verschachtelten Kapitel ebenfalls unsichtbar sind, auch wenn dessen eigener Schalter "unsichtbar" nicht aktiviert ist. Allerdings ist dies nicht der Fall für die Praxis. Alle Player die ich ausprobiert habe zeigen alle verschachtelten Kapitel die selbst nicht "unsichtbar" sind an.
 
 #### Presentation der verschachtelten Kapitel im Player
-Die meisten Player benutzen ein "+" vor dem Kapitelnamen um das Level der Verschachtelung anzuziegen. Ein Kapitel welches in der 2.ten Verschachtelungsebene liegt hat zwei "+" vor dem Namen.
+Die meisten Player benutzen ein "+" vor dem Kapitelnamen um das Level der Verschachtelung anzuzeigen. Ein Kapitel welches in der 2.ten Verschachtelungsebene liegt hat zwei "+" vor dem Namen.
 
 Eltern Kapitel
 +Verschachteltes Kapitel Level 1
