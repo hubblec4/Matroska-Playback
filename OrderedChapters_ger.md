@@ -5,7 +5,7 @@ Bei dieser Art von Kapiteln muss eine Spieldauer für jedes Kapitel ermittelt we
 
 Eine negative Spieldauer ist illegal und ein solches Kapitel wird vollkommen ignoriert.
 
-Es gibt einen Spezialfall, bei dem die Spieldauer eines Kapitels 0 ist. Ein solches reihenfolgentreues Kapitel verhält sich dann wie ein [Basis Kapitel](BasicChapters_ger.md). Die Startzeit muss innerhalb der Gesamtspieldauer liegen und wird als Kapitelmarke verwendet.
+Es gibt einen Spezialfall, bei dem die Spieldauer eines Kapitels 0 ist. Ein solches reihenfolgentreues Kapitel verhält sich dann wie ein [Basis Kapitel](BasicChapters_ger.md). Die Startzeit muss innerhalb der Gesamtspieldauer liegen und wird nur als Kapitelmarker verwendet.
 
 #### Deaktivierte Kapitel
 
