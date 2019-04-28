@@ -17,6 +17,8 @@ Kap 1       | 0s    | 10s  | 10s   | 10s
 Kap 2       | 30s   | 50s  | 20s   | 60s
 +Kap 2.1    | 50s   | 60s  | 10s   | 70s
 
+Die Matroska Test Datei wird in keinem Player so abgespielt, wie es hier beschrieben ist.
+
 ### Test Dateien
 [XML Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/NestedChapters/NestedChapters.xml)
 
