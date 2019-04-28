@@ -1,5 +1,5 @@
 # Matroska Verschachtelte Reihenfolgentreue Kapitel
-Diese Art von Kapitel ergibt sich automatisch aus der Kombination von [Verschachtelte Kapitel](NestedChapters_ger.md) und [Reihenfolgentreue Kapitel](OrderedChapters_ger.md).
+Diese Art von Kapitel ergibt sich automatisch aus der Kombination von [Verschachtelten Kapiteln](NestedChapters_ger.md) und [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md).
 
 In den Matroska Specs ist hierzu keinerlei Information zu finden.
 
