@@ -19,7 +19,8 @@ Eltern Kapitel
 
 Dies ist die meist genutze Form wenn alle Kapitel auf einer Ebene dargestellt werden. Zum Beispiel in einem Popup Menü.
 
-Eine weitere Möglichkeit wäre, die Verschachtelungsstruktur in einem Popup Menü nachzubilden, so dass verschachtelte Kapitel in einem Untermenü angezeigt werden.
+Eine weitere Möglichkeit wäre, die Verschachtelungsstruktur in einem Popup Menü nachzubilden, so dass verschachtelte Kapitel in einem Untermenü angezeigt werden. Dieses Verhalten ist sehr nützlich/wichtig für das Erstellen von Matroska Menu Strukturen auf der Basis von Kapitel-Segment-Verknüpfung.
+
 
 ### Test Dateien
 [XML Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/NestedChapters/NestedChapters.xml)
