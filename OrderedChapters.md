@@ -12,4 +12,13 @@ The chapter named "disabled" is disabled and will not be used. Therefore, the to
 
 ### Test files
 [XML Chapters file (ordered chapter times)](https://github.com/hubblec4/Matroska-Playback/blob/master/files/OrderedChapters/OrderedChapters_ordered.xml)
-Bei diesem Beispiel wird das Video "normal" von vorn nach hinten abgespielt. Version 1 in der Matroska Datei.
+
+In this example, the video will play "normal" from front to back. Edition 1 in the Matroska file.
+
+[XML Chapters file (unordered chapter times)](https://github.com/hubblec4/Matroska-Playback/blob/master/files/OrderedChapters/OrderedChapters_unordered.xml)
+
+In this example, the video is partially played from back to front because the chapter times are reversed. Edition 2 in the Matroska file.
+
+[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/OrderedChapters/OrderedChapters.mkv)
+
+The 1st edition starts automatically. The 2nd edition can be selected in the player if the player supports Matroska Editions.
