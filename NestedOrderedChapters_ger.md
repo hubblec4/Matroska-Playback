@@ -3,7 +3,7 @@ Diese Art von Kapitel ergibt sich automatisch aus der Kombination von [Verschach
 
 In den Matroska Specs ist hierzu keinerlei Information zu finden.
 
-In der Praxis verwenden die Player nur die Top-Level [Reihenfolgentreue Kapitel](OrderedChapters_ger.md) um die virtuelle Zeitleiste zu erstellen. Bei allen [Verschachtelten Kapiteln](NestedChapters_ger.md) wird nur die Startzeit verwendet, um einen Kapitelmarker für die Zeitleiste zu erstellen. Es wird keine Spieldauer für das Kapitel berechnet.
+In der Praxis verwenden die Player nur die Top-Level [Reihenfolgentreue Kapitel](OrderedChapters_ger.md) um die virtuelle Zeitleiste zu erstellen. Bei allen [Verschachtelten Kapiteln](NestedChapters_ger.md) wird nur die Startzeit verwendet für einen Kapitelmarker in der Zeitleiste. Es wird keine Spieldauer für das Kapitel berechnet.
 
 #### Volle Verschachtelte Reihenfolgentreue Kapitel
 In diesem Fall muss für jedes [Verschachtelte Kapitel](NestedChapters_ger.md) die Spieldauer berechnet werden.
