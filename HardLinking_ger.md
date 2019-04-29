@@ -27,3 +27,11 @@ Zuerst sucht der Player nach dieser Datei im Ordner. Wenn die Datei vorhanden is
 
 #### Vorwärts Suche
 Der Vorgang ist ähnlich wie bei der "Rückwärst Suche". Allerdings muss immer das `NextUID` Element untersucht werden.
+
+### Weitere Hard-Linking Möglichkeiten
+Da alle Player die ich getestet habe nach diesem Prinzip zu arbeiten, habe ich mir weiter Hard-Linking Möglichkeiten einfallen lassen. In meinem [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) Projekt kann man sher bequem diese Verschiedenen Varianten einrichten.
+
+#### Hard-Linking nur mit dem `NextUID` Element
+Ein Player wird somit immer nur in der Lage sein eine "Vorwärst Suche" zu starten. Nur wenn man die erste Matroska Datei öffnet, wird der gesamte Inhalt aller verknüpften Dateien abgespielt.
+
+Zum Beispiel für eine Serie, bei der jede Folge als erstes, immer den gleichen Vorspann hat, und anschließend einen Rückblick. Vorspann, Rückblick und der Episodenteil liegen separat als Matroska Datei vor. Möchte man die komplette Folge sehen, dann startet man die Vorspann-Datei. Möchte man keinen Vorpsnn sehen aber den Rückblick, dann startet man die Rückblick-Datei. Und möchte man nur den Episodenteil sehen, dann eben diese Datei starten.
