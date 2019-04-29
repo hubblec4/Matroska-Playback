@@ -4,7 +4,7 @@ Bei einem [Reihenfolgentreuen Kapitel](OrderedChapters_ger.md) kann mittels dem 
 Weiterhin kann das Element `ChapterSegmentEditionUID` genutzt werden um gezielt den Inhalt einer Version zu verwenden.
 
 ## Verknüpfung nur mit der SegmentUID
-Ber dieser Variante wird die Start- und Endzeit des Kapitels genutzt.
+Bei dieser Variante wird die Start- und Endzeit des Kapitels genutzt.
 Beide Zeiten müssen sich innerhalb der Spieldauer der verknüpften Datei befinden.
 
 ### Test Dateien
