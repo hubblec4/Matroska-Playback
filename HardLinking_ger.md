@@ -45,7 +45,7 @@ Nutzen wir wieder unser Serien Beispiel, nur das wir diesmal einen Episodenteil 
 
 [Hard-Linking PrevUID Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingPrevUID.zip)
 
-#### Hard-Linking gemischte Nutzen der `NextUID` und `PrevUID` Elemente
+#### Hard-Linking gemischtes Nutzen der `NextUID` und `PrevUID` Elemente
 Die folgenden drei Varianten nutzen auf sehr unterschiedliche Weise diese beiden Matroska Elemente. Es kommt dabei vor das eine Datei selbst keines der beiden Elemente nutzt aber dennoch Bestandteil der Verknüpfung ist. Diese Varianten sind sehr hilfreich bei Serien, bei denen die Folgen immer den gleichen Vor- oder Abspann haben.
 
 ##### Episoden mit Vorspann
