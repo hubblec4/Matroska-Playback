@@ -15,8 +15,7 @@ Dadurch wird sichergestellt, dass egal welche Datei man im Player öffnet, der g
 
 Zu beachten ist, dass man keine Endlos-Schleifen Verknüpfung erzeugen darf/sollte. Theoretisch könnte ein Player das erkennen, und beim Einlesen der Daten abbrechen, wenn die verknüpfte Datei schon einmal in die virtuelle Zeitleiste aufgenommen wurde.
 
-### Matroska Test Dateien
-[Hard-Linking Specs](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSpecs.zip)
+[Hard-Linking Specs Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSpecs.zip)
 
 ## Hard-Linking in der Praxis
 Zuerst einmal ein paar Überlegungen zum System Hard-Linking.
@@ -41,6 +40,6 @@ Zum Beispiel für eine Serie, bei der jede Folge als erstes, immer den gleichen 
 #### Hard-Linking nur mit dem `PrevUID` Element
 Ein Player wird somit immer nur in der Lage sein eine "Rückwärst Suche" zu starten. Nur wenn man die letzte Matroska Datei öffnet, wird der gesamte Inhalt aller verknüpften Dateien abgespielt.
 
-Nutzen wir wieder unser Serien Beispiel, nur das wir diesmal einen Abspann als separate Datei haben. Wenn man die Apspann Datei startet wird die gesamte Folge abgespielt. Startet man nur die Episodenteil-Datei dann wird die Abspann Datei nicht verwendet.
+Nutzen wir wieder unser Serien Beispiel, nur das wir diesmal einen Episodenteil und einen Abspann als separate Dateien haben. Wenn man die Apspann Datei startet wird die gesamte Folge abgespielt. Startet man nur die Episodenteil-Datei dann wird die Abspann Datei nicht verwendet.
 
 [Hard-Linking PrevUID Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingPrevUID.zip)
