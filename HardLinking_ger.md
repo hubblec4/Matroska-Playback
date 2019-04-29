@@ -17,3 +17,13 @@ Zu beachten ist, dass man keine Endlos-Schleifen Verknüpfung erzeugen darf/soll
 
 ### Matroska Test Dateien
 [Hard-Linking Specs](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSpecs.zip)
+
+## Hard-Linking in der Praxis
+Zuerst einmal ein paar Überlegungen zum System Hard-Linking.
+Ein Player untersucht die Matroska Datei und findet dabei ein `PrevUID` Element mit einer UID. Das führt dazu, dass eine "Rückwärts Suche" gestartet werden muss. Weiterhin muss das `NextUID` Element untersucht werden, wodurch dann eine "Vorwärst Suche" gestartet werden muss.
+
+#### Rückwärts Suche
+Zuerst sucht der Player nach dieser Datei im Ordner. Wenn die Datei vorhanden ist, wird wiederum das `PrevUID` Element untersucht, UND nicht das `NextUID` Element. Dies wiederholt sich solange bis die "erste" Matroska Datei erreicht ist, bei der es keine `PrevUID` gibt(oder die Datei nicht vorhanden ist).
+
+#### Vorwärts Suche
+Der Vorgang ist ähnlich wie bei der "Rückwärst Suche". Allerdings muss immer das `NextUID` Element untersucht werden.
