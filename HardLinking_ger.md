@@ -3,12 +3,12 @@ Hard-Linking ist die "einfachste" und "schwächste" Art von Verknüpfung, um Mat
 
 Beim Laden einer Matroska Datei muss ein Player diese untersuchen und prüfen, ob im Element `PrevUID` oder `NextUID` eine UID angegeben ist, welche zu einer anderen Matroska Datei gehört, die sich im selben Ordner befinden muss.
 
+#### Schwaches Hard-Linking
+Wenn eine reihenfolgentreue Version mit [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md) verwendet wird, dann muss das Hard-Linking ignoriert werden.
+
 #### Kapitel und Hard-Linking
 Wenn in den Matroska Dateien Kapitel enthalten sind, dann müssen die Kapitelzeiten für die Kapitelmarker angepasst/verschoben werden. Es werden nur die Startzeiten der Kapitel verwendet.
 TODO: Kapitelverwendung -> Welche Version
-
-#### Schwaches Hard-Linking
-Wenn eine reihenfolgentreue Version mit [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md) verwendet wird, dann muss das Hard-Linking ignoriert werden.
 
 ## Matroska Specs
 Die Matroska Specs besagen, dass die 1. Matroska Datei keine `PrevUID` haben darf und die letzte Matroska Datei darf keine `NextUID` haben. Alle "zwischen liegenden" Dateien müssen beide Elemente verwenden.
