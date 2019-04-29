@@ -29,7 +29,7 @@ Zuerst sucht der Player nach dieser Datei im Ordner. Wenn die Datei vorhanden is
 Der Vorgang ist ähnlich wie bei der "Rückwärst Suche". Allerdings muss immer das `NextUID` Element untersucht werden.
 
 ### Weitere Hard-Linking Möglichkeiten
-Da alle Player die ich getestet habe nach diesem Prinzip zu arbeiten, habe ich mir weiter Hard-Linking Möglichkeiten einfallen lassen. In meinem [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) Projekt kann man sher bequem diese Verschiedenen Varianten einrichten.
+Alle Player, die ich getestet habe, scheinen nach diesem Prinzip zu arbeiten. Daher habe ich mir weiter Hard-Linking Möglichkeiten einfallen lassen. In meinem [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) Projekt kann man sehr bequem diese verschiedenen Varianten einrichten.
 
 #### Hard-Linking nur mit dem `NextUID` Element
 Ein Player wird somit immer nur in der Lage sein eine "Vorwärst Suche" zu starten. Nur wenn man die erste Matroska Datei öffnet, wird der gesamte Inhalt aller verknüpften Dateien abgespielt.
