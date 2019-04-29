@@ -5,6 +5,7 @@ Beim Laden einer Matroska Datei muss ein Player diese untersuchen und prüfen, o
 
 #### Kapitel und Hard-Linking
 Wenn in den Matroska Dateien Kapitel enthalten sind, dann müssen die Kapitelzeiten für die Kapitelmarker angepasst/verschoben werden. Es werden nur die Startzeiten der Kapitel verwendet.
+TODO: Kapitelverwendung -> Welche Version
 
 #### Schwaches Hard-Linking
 Wenn eine reihenfolgentreue Version mit [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md) verwendet wird, dann muss das Hard-Linking ignoriert werden.
