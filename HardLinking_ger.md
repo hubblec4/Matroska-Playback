@@ -13,7 +13,7 @@ Wenn in den Matroska Dateien Kapitel enthalten sind, dann müssen die Kapitelzei
 
 Welche Kapitel, aus welcher Version sollten verwendet werden?
 
-Es kann vorkommen, dass mehrere Versionen in der geöffneten Datei vorhanden sind. Wie schon erwähnt darf die Version nicht reihenfolgentreu sein. Sagen wir mal die 2.Version muss vom Player verwendet werden. Dann sollte der Player auch aus allen verknüpften Dateien die 2.Version benutzen. Falls es aber keine 2.Version in einer der verknüpften Dateien gibt, dann werden auch keine Kapitelmarker erstellt.
+Es kann vorkommen, dass mehrere Versionen in der geöffneten Datei vorhanden sind. Wie schon erwähnt darf die Version nicht reihenfolgentreu sein. Sagen wir mal die 2.Version muss vom Player verwendet werden. Dann sollte der Player auch aus allen verknüpften Dateien die 2.Version benutzen. Falls es aber keine 2.Version in einer der verknüpften Dateien gibt, dann werden auch keine Kapitelmarker für diese Datei erstellt.
 
 Wie und welche Kapitel von den verknüpften Dateien genutzt werden,  handhaben die aktuellen Player sehr unterschiedlich. Der LAV-Splitter zum Beispiel nutzt immer die 1.Version aus den verknüpften Dateien. Gibt es eine Version mit dem `EditionFlagDefault` Element, dann werden die Kapitel dieser Version verwendet.
 
