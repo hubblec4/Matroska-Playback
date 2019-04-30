@@ -37,7 +37,7 @@ Ein Player untersucht die Matroska Datei und findet dabei ein `PrevUID` Element 
 Zuerst sucht der Player nach dieser Datei im Ordner. Wenn die Datei vorhanden ist, wird wiederum das `PrevUID` Element untersucht, aber NICHT das `NextUID` Element. Dies wiederholt sich solange bis die "erste" Matroska Datei erreicht ist, bei der es keine `PrevUID` gibt, oder die zuverlinkende Datei nicht vorhanden ist.
 
 #### Vorwärts Suche
-Der Vorgang ist ähnlich wie bei der "Rückwärst Suche". Allerdings muss immer das `NextUID` Element untersucht werden.
+Der Vorgang ist ähnlich wie bei der "Rückwärts Suche". Allerdings muss immer das `NextUID` Element untersucht werden.
 
 ### Weitere Hard-Linking Möglichkeiten
 Alle Player die ich getestet habe, scheinen nach diesem Prinzip zu arbeiten. Daher habe ich mir weitere Hard-Linking Möglichkeiten einfallen lassen. In meinem [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) Projekt kann man sehr bequem diese verschiedenen Varianten einrichten.
