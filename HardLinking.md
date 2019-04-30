@@ -52,9 +52,9 @@ For example, for a series in which each episode always has the same intro, and t
 #### Hard-Linking with `PrevUID` element only
 A player will thus always be able to start a "Backward search". Only by opening the last Matroska file will all the content of all linked files be played.
 
-Nutzen wir wieder unser Serien Beispiel, nur das wir diesmal einen Episodenteil und einen Abspann als separate Dateien haben. Wenn man die Abspann Datei startet, dann wird die gesamte Folge abgespielt. Startet man nur die Episodenteil-Datei, dann wird die Abspann Datei nicht verwendet.
+Let us use again our series example, only this time we have an episode part and a credits part as separate files. If you start the credits file, then the entire episode will be played. If you only start the episode file, the credits file will not be used.
 
-[Hard-Linking PrevUID Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingPrevUID.zip)
+[Hard-Linking PrevUID test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingPrevUID.zip)
 
 #### Hard-Linking gemischtes Nutzen der `NextUID` und `PrevUID` Elemente
 Die folgenden drei Varianten nutzen auf sehr unterschiedliche Weise diese beiden Matroska Elemente. Es kommt dabei vor, dass eine Datei selbst keines der beiden Elemente nutzt, aber dennoch Bestandteil der Verknüpfungskette ist. Diese Varianten sind sehr hilfreich für Serien, bei denen die Folgen immer den gleichen Vor- und/oder Abspann haben.
