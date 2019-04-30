@@ -43,7 +43,7 @@ The process is similar to the "Backward search". However, the `NextUID` element 
 All the players I tested seem to work on this principle. That's why I came up with more Hard-Linking options. In my [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) project you can easily set up these different variants.
 
 #### Hard-Linking with `NextUID` element only
-A player will thus always be able to start a "forward search". Only when opening the first Matroska file will all the contents of all linked files be played.
+A player will thus always be able to start a "Forward search". Only when opening the first Matroska file will all the contents of all linked files be played.
 
 For example, for a series in which each episode always has the same intro, and then a review. The intro, the review, and the episodic part are available separately as a Matroska file. If you want to see the complete episode, start the intro file. If you do not want to see an intro but the review, then you start the review file. And if you only want to see the episode part, then just start this file.
 
