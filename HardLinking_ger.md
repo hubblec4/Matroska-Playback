@@ -77,6 +77,6 @@ Bei dieser Variante gibt es eine Vorspann und eine Abspann Datei, sowie auch wei
 ## Probleme beim Hard-Linking
 Die Test Dateien wurden mit mkvmerge aus einer "großen" Datei aufgeteilt. Mkvmerge kann nur an den Schlüsselbildern "schneiden". Weiterhin unterliegt Matroska einer Beschränkung, was dass Speichern der Audio Daten angeht. Daher ist bei sehr vielen Matroska Dateien die längste Spur-Spieldauer, die einer Audiospur.
 
-Fast alle Player die ich getestet habe verknüpfen die Matroska Dateien so, dass alle Daten bis zum Ende verwendet werden. Das führt aber dazu, dass das Video dann "hängen" bleibt. Nur der Lav-Splitter (und Haali-Splitter) arbeiten hier besser. Ich kann es nicht ganz genau bestätigen, aber es werden anscheinden nur solange Daten von einer Datei verwendet, solange es auch Videodaten gibt.
+Fast alle Player die ich getestet habe verknüpfen die Matroska Dateien so, dass alle Daten bis zum Ende verwendet werden. Das führt aber dazu, dass das Video dann "hängen" bleibt. Nur der Lav-Splitter (und Haali-Splitter) arbeiten hier besser. Ich kann es nicht genau bestätigen, aber es werden anscheinden nur solange Daten von einer Datei verwendet, solange es auch Videodaten gibt.
 
 Das Matroska Dateien nicht richtig miteinander verknüpft sind, sieht man in den Playern sehr gut an der gesamt Spieldauer. Diese war dann immer ein paar Sekunden zu hoch. Die Test Dateien sind aber anscheinden alle sehr gut "geschnitten" und auch VLC kann die richtig abspielen(allerdings funktioniert die Zeitleiste nicht richtig ->VLC.bug).
