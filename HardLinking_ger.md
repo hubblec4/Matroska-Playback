@@ -6,6 +6,8 @@ Beim Laden einer Matroska Datei muss ein Player diese Elemente untersuchen und p
 #### Schwaches Hard-Linking
 Wenn eine reihenfolgentreue Version mit [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md) verwendet wird, dann muss das Hard-Linking ignoriert werden.
 
+[Hard-Linking "Schwach" Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWeak.zip)
+
 #### Kapitel und Hard-Linking
 Wenn in den Matroska Dateien Kapitel enthalten sind, dann müssen die Kapitelzeiten für die Kapitelmarker angepasst/verschoben werden. Es werden nur die Startzeiten der Kapitel verwendet.
 TODO: Kapitelverwendung -> Welche Version
