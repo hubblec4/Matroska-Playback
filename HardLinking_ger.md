@@ -73,3 +73,6 @@ Es gibt nur eine Abspann Datei und viele weitere Episoden Dateien. Jede Episoden
 Bei dieser Variante gibt es eine Vorspann und eine Abspann Datei, sowie auch weitere Episoden Dateien. Jede Episoden Datei nutzt die `NextUID`, um die Abspann Datei zu verknüpfen. Jede Episoden Datei nutzt die `PrevUID`, um die Vorspann Datei zu verknüpfen. Die Vor- und Abspann Datei haben keine Verknüpfungen und werden daher immer nur alleine abgespielt.
 
 [Hard-Linking Serien-Vorspann-Abspann Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntroCredits.zip)
+
+## Probleme beim Hard-Linking
+Die Test Dateien wurden mit mkvmerge aus einer "großen" Datei aufgeteilt. Mkvmerge kann nur an den Schlüsselbildern "schneiden". Weiterhin unterliegt Matroska einer Beschränkung, was dass Speichern der Audio Daten angeht. Daher ist bei sehr vielen Matroska Datei die längste Spur-Spieldauer, die einer Audiospur. Alle Player die ich getestet habe verknüpfen die Matroska Dateien so, dass alle Daten bis zum Ende verwendet werden. Das führt aber dazu, dass das Video dann "hängen" bleibt. Nur der Lav-Splitter (und Haali-Splitter) arbeiten hier besser. Ich kann es nicht ganz genau bestätigen, aber es werden anscheinden nur solange Daten von einer Datei verwendet, solange es auch Videodaten gibt.
