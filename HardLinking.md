@@ -1,12 +1,12 @@
 # Matroska Hard-Linking
-Hard-Linking ist die "schwächste" Art von Verknüpfung, um Matroska Dateien virtuell und nahtlos miteinander zu verbinden. Für dieses Verfahren werden die Elemente `PrevUID` und `NextUID` genutzt. Diese Elemente befinden sich in der Segment/Info Sektion einer Matroska Datei.
+Hard-Linking is the "weakest" kind of Matroska-Linking to virtually and seamlessly connect Matroska files. For this procedure the elements `PrevUID` and` NextUID` are used. These elements are located in the Segment/Info section of a Matroska file.
 
-Beim Laden einer Matroska Datei muss ein Player diese Elemente untersuchen und prüfen, ob im Element `PrevUID` oder `NextUID` eine UID angegeben ist, welche zu einer anderen Matroska Datei gehört, die sich im selben Ordner befinden muss.
+When loading a Matroska file, a player must examine these elements and check that the PrevUID or NextUID element specifies a SegmentUID that belongs to another Matroska file that must be in the same folder.
 
-#### Schwaches Hard-Linking
-Wenn eine reihenfolgentreue Version mit [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md) verwendet wird, dann muss das Hard-Linking ignoriert werden.
+#### Weak Hard-Linking
+If an ordered edition with [Ordered Chapters](OrderedChapters.md) is used, then Hard-Linking must be ignored.
 
-[Hard-Linking "Schwach" Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWeak.zip)
+[Hard-Linking "Weak" Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWeak.zip)
 
 #### Kapitel und Hard-Linking
 Wenn in den Matroska Dateien Kapitel enthalten sind, dann müssen die Kapitelzeiten für die Kapitelmarker angepasst/verschoben werden. Es werden nur die Startzeiten der Kapitel verwendet.
