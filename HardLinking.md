@@ -8,46 +8,46 @@ If an ordered edition with [Ordered Chapters](OrderedChapters.md) is used, then 
 
 [Hard-Linking "Weak" Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWeak.zip)
 
-#### Kapitel und Hard-Linking
-Wenn in den Matroska Dateien Kapitel enthalten sind, dann müssen die Kapitelzeiten für die Kapitelmarker angepasst/verschoben werden. Es werden nur die Startzeiten der Kapitel verwendet.
+#### Chapters and Hard-Linking
+If there are chapters in the Matroska files then the chapter times for the chapter markers must be adjusted/shifted. Only the start times of the chapters are used.
 
-Welche Kapitel, aus welcher Version sollten verwendet werden?
+Which chapters, from which edition should be used?
 
-Es kann vorkommen, dass mehrere Versionen in der geöffneten Datei vorhanden sind. Wie schon erwähnt darf die Version nicht reihenfolgentreu sein. Sagen wir mal die 2.Version muss vom Player verwendet werden. Dann sollte der Player auch aus allen verknüpften Dateien die 2.Version benutzen. Falls es aber keine 2.Version in einer der verknüpften Dateien gibt, dann werden auch keine Kapitelmarker für diese Datei erstellt.
+It may happen that there are multiple editions in the open file. As already mentioned, the edition may not be ordered. Let's say the 2nd edition has to be used by the player. Then the player should also use the 2nd edition of all linked files. However, if there is no 2nd edition in any of the linked files, then no chapter markers will be created for this file.
 
-Wie und welche Kapitel von den verknüpften Dateien genutzt werden,  handhaben die aktuellen Player sehr unterschiedlich. Der LAV-Splitter zum Beispiel nutzt immer die 1.Version aus den verknüpften Dateien. Gibt es eine Version mit dem `EditionFlagDefault` Element, dann werden die Kapitel dieser Version verwendet.
+How and which chapters are used by the linked files, the current players handle very different. For example, the LAV splitter always uses the 1st edition from the linked files. If there is an edition with the `EditionFlagDefault` element, the chapters of this edition will be used.
 
-Die erste Test Datei hat 2 Versionen und die 2. ist die Standard Version. Ebenso hat die zweite und letzte Test Datei 2 Versionen, aber keine ist als Standard defniert. Die anderen Test Dateien haben nur eine Version.
+The first test file has 2 editions and the 2nd is the default edition. Likewise, the second and final test file has 2 editions, but none is defined as default. The other test files have only one edition.
 
-[Hard-Linking mehrere Versionen Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWithMultipleEditions.zip)
+[Hard-Linking multiple editions Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWithMultipleEditions.zip)
 
 ## Matroska Specs
-Die Matroska Specs besagen, dass die 1. Matroska Datei keine `PrevUID` haben darf und die letzte Matroska Datei darf keine `NextUID` haben. Alle "zwischen liegenden" Dateien müssen beide Elemente verwenden.
-Dadurch wird sichergestellt, dass egal welche Datei man im Player öffnet, der gesamte Inhalt aller verknüpften Dateien abgespielt wird.
+The Matroska Specs state that the 1st Matroska file must not have a `PrevUID` and the last Matroska file must not have` NextUID`. All "intermediate" files must use both elements.
+This ensures that no matter what file you open in the player, the entire contents of all linked files will be played.
 
-Zu beachten ist, dass man keine Endlos-Schleifen Verknüpfung erzeugen darf/sollte. Theoretisch könnte ein Player das erkennen, und beim Einlesen der Daten abbrechen, wenn die verknüpfte Datei schon einmal in die virtuelle Zeitleiste aufgenommen wurde.
+It should be noted that one must/should not create an endless loops linkage. Theoretically, a player could detect this, and abort when reading in the data if the linked file has already been included in the virtual timeline.
 
-[Hard-Linking Specs Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSpecs.zip)
+[Hard-Linking Specs Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSpecs.zip)
 
-## Hard-Linking in der Praxis
-Zuerst einmal ein paar Überlegungen zum System Hard-Linking.
-Ein Player untersucht die Matroska Datei und findet dabei ein `PrevUID` Element mit einer SegmentUID. Das führt dazu, dass eine "Rückwärts Suche" gestartet werden muss. Weiterhin muss das `NextUID` Element untersucht werden, wodurch dann eine "Vorwärst Suche" gestartet werden muss.
+## Hard-Linking in practice
+First of all, a few thoughts on the system Hard-Linking.
+A player examines the Matroska file and finds a `PrevUID` element with a SegmentUID. This causes a "Backward search" to be started. Furthermore, the `NextUID` element has to be examined, which then has to start a 'Forward search'.
 
-#### Rückwärts Suche
-Zuerst sucht der Player nach dieser Datei im Ordner. Wenn die Datei vorhanden ist, wird wiederum das `PrevUID` Element untersucht, aber NICHT das `NextUID` Element. Dies wiederholt sich solange bis die "erste" Matroska Datei erreicht ist, bei der es keine `PrevUID` gibt, oder die Datei nicht vorhanden ist.
+#### Backward search
+First, the player searches for this file in the folder. If the file exists, again the `PrevUID` element is examined, but NOT the` NextUID` element. This is repeated until the "first" Matroska file is reached, where there is no `PrevUID`, or the file to be linked is not available.
 
-#### Vorwärts Suche
-Der Vorgang ist ähnlich wie bei der "Rückwärst Suche". Allerdings muss immer das `NextUID` Element untersucht werden.
+#### Forward search
+The process is similar to the "Backward search". However, the `NextUID` element must always be examined.
 
-### Weitere Hard-Linking Möglichkeiten
-Alle Player die ich getestet habe, scheinen nach diesem Prinzip zu arbeiten. Daher habe ich mir weitere Hard-Linking Möglichkeiten einfallen lassen. In meinem [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) Projekt kann man sehr bequem diese verschiedenen Varianten einrichten.
+### Further Hard-Linking possibilities
+All the players I tested seem to work on this principle. That's why I came up with more Hard-Linking options. In my [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) project you can easily set up these different variants.
 
-#### Hard-Linking nur mit dem `NextUID` Element
-Ein Player wird somit immer nur in der Lage sein eine "Vorwärst Suche" zu starten. Nur wenn man die erste Matroska Datei öffnet, wird der gesamte Inhalt aller verknüpften Dateien abgespielt.
+#### Hard-Linking with `NextUID` element only
+A player will thus always be able to start a "forward search". Only when opening the first Matroska file will all the contents of all linked files be played.
 
-Zum Beispiel für eine Serie, bei der jede Folge als erstes, immer den gleichen Vorspann hat, und anschließend einen Rückblick. Vorspann, Rückblick und der Episodenteil liegen separat als Matroska Datei vor. Möchte man die komplette Folge sehen, dann startet man die Vorspann-Datei. Möchte man keinen Vorspann sehen aber den Rückblick, dann startet man die Rückblick-Datei. Und möchte man nur den Episodenteil sehen, dann eben diese Datei starten.
+For example, for a series in which each episode always has the same intro, and then a review. The intro, the review, and the episodic part are available separately as a Matroska file. If you want to see the complete episode, start the intro file. If you do not want to see an intro but the review, then you start the review file. And if you only want to see the episode part, then just start this file.
 
-[Hard-Linking NextUID Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingNextUID.zip)
+[Hard-Linking NextUID Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingNextUID.zip)
 
 #### Hard-Linking nur mit dem `PrevUID` Element
 Ein Player wird somit immer nur in der Lage sein eine "Rückwärst Suche" zu starten. Nur wenn man die letzte Matroska Datei öffnet, wird der gesamte Inhalt aller verknüpften Dateien abgespielt.
