@@ -6,7 +6,7 @@ When loading a Matroska file, a player must examine these elements and check tha
 #### Weak Hard-Linking
 If an ordered edition with [Ordered Chapters](OrderedChapters.md) is used, then Hard-Linking must be ignored.
 
-[Hard-Linking "Weak" Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWeak.zip)
+[Hard-Linking "Weak" test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWeak.zip)
 
 #### Chapters and Hard-Linking
 If there are chapters in the Matroska files then the chapter times for the chapter markers must be adjusted/shifted. Only the start times of the chapters are used.
@@ -19,7 +19,7 @@ How and which chapters are used by the linked files, the current players handle 
 
 The first test file has 2 editions and the 2nd is the default edition. Likewise, the second and final test file has 2 editions, but none is defined as default. The other test files have only one edition.
 
-[Hard-Linking multiple editions Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWithMultipleEditions.zip)
+[Hard-Linking multiple editions test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWithMultipleEditions.zip)
 
 ## Matroska Specs
 The Matroska Specs state that the 1st Matroska file must not have a `PrevUID` and the last Matroska file must not have` NextUID`. All "intermediate" files must use both elements.
@@ -27,7 +27,7 @@ This ensures that no matter what file you open in the player, the entire content
 
 It should be noted that one must/should not create an endless loops linkage. Theoretically, a player could detect this, and abort when reading in the data if the linked file has already been included in the virtual timeline.
 
-[Hard-Linking Specs Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSpecs.zip)
+[Hard-Linking Specs test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSpecs.zip)
 
 ## Hard-Linking in practice
 First of all, a few thoughts on the system Hard-Linking.
@@ -47,12 +47,12 @@ A player will thus always be able to start a "forward search". Only when opening
 
 For example, for a series in which each episode always has the same intro, and then a review. The intro, the review, and the episodic part are available separately as a Matroska file. If you want to see the complete episode, start the intro file. If you do not want to see an intro but the review, then you start the review file. And if you only want to see the episode part, then just start this file.
 
-[Hard-Linking NextUID Test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingNextUID.zip)
+[Hard-Linking NextUID test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingNextUID.zip)
 
-#### Hard-Linking nur mit dem `PrevUID` Element
-Ein Player wird somit immer nur in der Lage sein eine "Rückwärst Suche" zu starten. Nur wenn man die letzte Matroska Datei öffnet, wird der gesamte Inhalt aller verknüpften Dateien abgespielt.
+#### Hard-Linking with `PrevUID` element only
+A player will thus always be able to start a "Backward search". Only by opening the last Matroska file will all the content of all linked files be played.
 
-Nutzen wir wieder unser Serien Beispiel, nur das wir diesmal einen Episodenteil und einen Abspann als separate Dateien haben. Wenn man die Apspann Datei startet, dann wird die gesamte Folge abgespielt. Startet man nur die Episodenteil-Datei, dann wird die Abspann Datei nicht verwendet.
+Nutzen wir wieder unser Serien Beispiel, nur das wir diesmal einen Episodenteil und einen Abspann als separate Dateien haben. Wenn man die Abspann Datei startet, dann wird die gesamte Folge abgespielt. Startet man nur die Episodenteil-Datei, dann wird die Abspann Datei nicht verwendet.
 
 [Hard-Linking PrevUID Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingPrevUID.zip)
 
