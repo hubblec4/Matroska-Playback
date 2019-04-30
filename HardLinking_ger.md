@@ -10,7 +10,16 @@ Wenn eine reihenfolgentreue Version mit [Reihenfolgentreuen Kapiteln](OrderedCha
 
 #### Kapitel und Hard-Linking
 Wenn in den Matroska Dateien Kapitel enthalten sind, dann müssen die Kapitelzeiten für die Kapitelmarker angepasst/verschoben werden. Es werden nur die Startzeiten der Kapitel verwendet.
-TODO: Kapitelverwendung -> Welche Version
+
+Welche Kapitel, aus welcher Version sollten verwendet werden.
+
+Es kann vorkommen, dass mehrere Versionen in der geöffneten Datei vorhanden sind. Wie schon erwähnt darf die Version nicht reihenfolgentreu sein. Sagen wir mal die 2.Version muss vom Player verwendet werden. Dann sollte der Player auch aus allen verknüpften Dateien, die 2.Version benutzen. Falls es aber keine 2.Version in einer der verknüpften Dateien gibt, dann werden auch keine Kapitelmarker erstellt.
+
+Wie und welche Kapitel von den verknüpften Dateien genutzt werden,  handhaben die aktuellen Player sehr unterschiedlich. Der LAV-Splitter zum Beispiel nutzt immer die 1.Version aus den verknüpften Dateien. Gibt es eine Version mit dem `EditionFlagDefault` Element, dann werden die Kapitel dieser Version verwendet.
+
+Die erste Test Datei hat 2 Versionen und die 2. ist die Standard Version. Ebenso hat die zweite und letzte Test Datei 2 Versionen, aber keine ist als Standard defniert. Die anderen Test Dateien haben nur eine Version.
+
+[Hard-Linking mehrere Versionen Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWithMultipleEditions.zip)
 
 ## Matroska Specs
 Die Matroska Specs besagen, dass die 1. Matroska Datei keine `PrevUID` haben darf und die letzte Matroska Datei darf keine `NextUID` haben. Alle "zwischen liegenden" Dateien müssen beide Elemente verwenden.
