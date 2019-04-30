@@ -70,7 +70,7 @@ There is only one credits file and many more episodes files. Each episode file u
 [Hard-Linking Series-Credits test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesCredits.zip)
 
 ##### Episoden with intro and credits
-In this variant, there is a intro and a credits file, as well as other episodes files. Each episode file uses the `NextUID` to link the credits file. Each episode file uses the `PrevUID` to link the intro file. The intro and credits file have no links and are therefore always played by itself.
+In this variant, there is an intro and a credits file, as well as other episodes files. Each episode file uses the `NextUID` to link the credits file. Each episode file uses the `PrevUID` to link the intro file. The intro and credits file have no links and are therefore always played by itself.
 
 [Hard-Linking Series-Intro-Credits test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntroCredits.zip)
 
