@@ -56,23 +56,23 @@ Let us use again our series example, only this time we have an episode part and 
 
 [Hard-Linking PrevUID test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingPrevUID.zip)
 
-#### Hard-Linking gemischtes Nutzen der `NextUID` und `PrevUID` Elemente
-Die folgenden drei Varianten nutzen auf sehr unterschiedliche Weise diese beiden Matroska Elemente. Es kommt dabei vor, dass eine Datei selbst keines der beiden Elemente nutzt, aber dennoch Bestandteil der Verknüpfungskette ist. Diese Varianten sind sehr hilfreich für Serien, bei denen die Folgen immer den gleichen Vor- und/oder Abspann haben.
+#### Hard-Linking mixed use of `NextUID` and `PrevUID` elementes
+The following three variants use these two Matroska elements in very different ways. It happens that a file itself does not use either of the two elements, but is still part of the linking chain. These variants are very helpful for series in which the episodes always have the same intro and/or credits.
 
-##### Episoden mit Vorspann
-Es gibt nur eine Vorspann Datei und viele weitere Episoden Dateien. Jede Episoden Datei nutzt die `PrevUID`, um die Vorspann Datei zu verknüpfen. Die Vorspann Datei nutzt keine Verknüpfungen und wird daher immer nur alleine abgespielt. Man könnte natürlich eine `NextUID` zuweisen, aber eben nur zu einer Episoden Datei.
+##### Episode with intro
+There is only one intro file and many more episodes files. Each episode file uses the `PrevUID` to link the intro file. The intro file does not use links and is therefore always played by itself. Of course you could assign a `NextUID`, but only to one episode file.
 
-[Hard-Linking Serien-Vorspann Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntro.zip)
+[Hard-Linking Series-Intro test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntro.zip)
 
-##### Episoden mit Abspann
-Es gibt nur eine Abspann Datei und viele weitere Episoden Dateien. Jede Episoden Datei nutzt die `NextUID`, um die Abspann Datei zu verknüpfen. Die Abspann Datei nutzt keine Verknüpfungen und wird daher immer nur alleine abgespielt. Man könnte natürlich eine `PrevUID` zuweisen, aber eben nur zu einer Episoden Datei.
+##### Episoden with credits
+There is only one credits file and many more episodes files. Each episode file uses the `NextUID` to link the credits file. The credits file does not use links and is therefore always played by itself. Of course you could assign a `PrevUID`, but only to one episode file.
 
-[Hard-Linking Serien-Abspann Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesCredits.zip)
+[Hard-Linking Series-Credits test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesCredits.zip)
 
-##### Episoden mit Vorspann und Abspann
-Bei dieser Variante gibt es eine Vorspann und eine Abspann Datei, sowie auch weitere Episoden Dateien. Jede Episoden Datei nutzt die `NextUID`, um die Abspann Datei zu verknüpfen. Jede Episoden Datei nutzt die `PrevUID`, um die Vorspann Datei zu verknüpfen. Die Vor- und Abspann Datei haben keine Verknüpfungen und werden daher immer nur alleine abgespielt.
+##### Episoden with intro and credits
+In this variant, there is a intro and a credits file, as well as other episodes files. Each episode file uses the `NextUID` to link the credits file. Each episode file uses the `PrevUID` to link the intro file. The intro and credits file have no links and are therefore always played by itself.
 
-[Hard-Linking Serien-Vorspann-Abspann Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntroCredits.zip)
+[Hard-Linking Series-Intro-Credits test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntroCredits.zip)
 
 ## Probleme beim Hard-Linking
 Die Test Dateien wurden mit mkvmerge aus einer "großen" Datei aufgeteilt. Mkvmerge kann nur an den Schlüsselbildern "schneiden". Weiterhin unterliegt Matroska einer Beschränkung, was dass Speichern der Audio Daten angeht. Daher ist bei sehr vielen Matroska Dateien die längste Spur-Spieldauer, die einer Audiospur.
