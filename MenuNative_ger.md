@@ -6,7 +6,7 @@ Ein Chapter CODEC ist eine Software, welche alle nativen Matroska Menü Kommando
 
 Momentan gibt es nur ein einziges Kommenado `GotoAndPlay(ChapterUID);`, bei dem zu einem bestimmten Kapitel gesprungen werden soll.
 
-Nur im VLC ist natives Matroska Menü eingebaut wurden, aber nicht in alle Versionen. Für das Testen und erstellen einer solchen Matroska Datei hatte ich Version 3 benutzt.
+Nur im VLC ist natives Matroska Menü eingebaut wurden, aber nicht in alle Versionen. Für das Testen einer solchen Matroska Datei hatte ich Version 3 benutzt.
 
 In der Test Datei befindet sich im 5.Kapitel das `GotoAndPlay();` Kommando. Dabei soll bevor das 5.Kapitel abgespielt wird, zum 2.Kapitel gesprungen werden.
 
