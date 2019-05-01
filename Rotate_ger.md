@@ -2,7 +2,7 @@
 Matroska bietet die Möglichkeiten eine Videospur um die z-Achse während des Abspielens zu drehen. Natürlich nur, wenn der Player die Anweisungen auslesen und verarbeiten kann.
 
 ##  Mit dem Matroska Element `ProjectionPoseRoll`
-Seit kurzem erst ist diese Element direkt in der Videospur enthalten und sollte von nun an genutzt werden.
+Das Element ist in den Kopfdaten der Videospur enthalten.
 
 [Matroska Test Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/Rotate/RotateProjectionPoseRoll.mkv)
 
