@@ -80,3 +80,8 @@ The test files were split with mkvmerge from a "big" file. Mkvmerge can only "cu
 Almost all the players I have tested link the Matroska files so that all the data is used to the end. But this leads to the video then "hanging" remains. Only the Lav Splitter (and Haali Splitter) work better here. I can not confirm it exactly, but it will only appear as long as data from a file is used, as long as there is video data.
 
 The Matroska files are not properly linked, you can see in the players very well on the total playing time. This was always a few seconds too high. The test files are very well "cut", because even VLC can play correctly (but the timeline does not work properly -> VLC.bug).
+
+I uploaded test files for VLC some time ago. For these files, the audio data is longer than the video data and therefore the picture always "hangs" a bit.
+
+[Hard-Linking issue test files 1](https://forum.videohelp.com/attachments/45588-1525907432/Matroska-Hard-Linking%20sample1.7z)
+[Hard-Linking issue test files 2](https://forum.videohelp.com/attachments/45589-1525907957/Matroska-Hard-Linking%20sample2.7z)
