@@ -80,3 +80,8 @@ Die Test Dateien wurden mit mkvmerge aus einer "großen" Datei aufgeteilt. Mkvme
 Fast alle Player die ich getestet habe verknüpfen die Matroska Dateien so, dass alle Daten bis zum Ende verwendet werden. Das führt aber dazu, dass das Video dann "hängen" bleibt. Nur der Lav-Splitter (und Haali-Splitter) arbeiten hier besser. Ich kann es nicht genau bestätigen, aber es werden anscheinden nur solange Daten von einer Datei verwendet, solange es auch Videodaten gibt.
 
 Das Matroska Dateien nicht richtig miteinander verknüpft sind, sieht man in den Playern sehr gut an der gesamt Spieldauer. Diese war dann immer ein paar Sekunden zu hoch. Die Test Dateien sind aber sehr gut "geschnitten", denn auch VLC kann die richtig abspielen(allerdings funktioniert die Zeitleiste nicht richtig ->VLC.bug).
+
+Ich hatte vor einiger Zeit bereits Test Dateien für VLC mal hochgeladen. Bei diesen Dateien sind die Audiodaten länger als die Videodaten und daher "hängt" das Bild immer ein wenig.
+
+[Hard-Linking Problem Test Dateien 1](https://forum.videohelp.com/attachments/45588-1525907432/Matroska-Hard-Linking%20sample1.7z)
+[Hard-Linking Problem Test Dateien 2](https://forum.videohelp.com/attachments/45589-1525907957/Matroska-Hard-Linking%20sample2.7z)
