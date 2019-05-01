@@ -1,7 +1,7 @@
 # Matroska Hard-Linking
 Hard-Linking is the "weakest" kind of Matroska-Linking to virtually and seamlessly connect Matroska files. For this procedure the elements `PrevUID` and` NextUID` are used. These elements are located in the Segment/Info section of a Matroska file.
 
-When loading a Matroska file, a player must examine these elements and check that the PrevUID or NextUID element specifies a SegmentUID that belongs to another Matroska file that must be in the same folder.
+When loading a Matroska file, a player must examine these elements and check that the `PrevUID` or `NextUID` element specifies a SegmentUID that belongs to another Matroska file that must be in the same folder.
 
 #### Weak Hard-Linking
 If an ordered edition with [Ordered Chapters](OrderedChapters.md) is used, then Hard-Linking must be ignored.
