@@ -59,17 +59,17 @@ Let us use again our series example, only this time we have an episode part and 
 #### Hard-Linking mixed use of `NextUID` and `PrevUID` elementes
 The following three variants use these two Matroska elements in very different ways. It happens that a file itself does not use either of the two elements, but is still part of the linking chain. These variants are very helpful for series in which the episodes always have the same intro and/or credits.
 
-##### Episode with intro
+##### Episodes with intro
 There is only one intro file and many more episodes files. Each episode file uses the `PrevUID` to link the intro file. The intro file does not use links and is therefore always played by itself. Of course you could assign a `NextUID`, but only to one episode file.
 
 [Hard-Linking Series-Intro test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntro.zip)
 
-##### Episoden with credits
+##### Episodes with credits
 There is only one credits file and many more episodes files. Each episode file uses the `NextUID` to link the credits file. The credits file does not use links and is therefore always played by itself. Of course you could assign a `PrevUID`, but only to one episode file.
 
 [Hard-Linking Series-Credits test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesCredits.zip)
 
-##### Episoden with intro and credits
+##### Episodes with intro and credits
 In this variant, there is an intro and a credits file, as well as other episodes files. Each episode file uses the `NextUID` to link the credits file. Each episode file uses the `PrevUID` to link the intro file. The intro and credits file have no links and are therefore always played by itself.
 
 [Hard-Linking Series-Intro-Credits test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingSeriesIntroCredits.zip)
