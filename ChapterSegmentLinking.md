@@ -1,4 +1,6 @@
 # Matroska Chapter-Segment-Linking
+The official Matroska name is Medium-Linking.
+
 For an [Ordered Chapter](OrderedChapters.md), a link to another file can be established using the `ChapterSegmentUID` element. When creating the virtual timeline, the player must use the content from the linked file.
 
 Furthermore, the element `ChapterSegmentEditionUID` can be used to selectively use the content of an edition.
