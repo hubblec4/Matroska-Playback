@@ -1,8 +1,13 @@
-# Natives Matroska Menü
-Für dieses System werden [Reihenfolgentreue Kapitel](OrderedChapters_ger.md) und ein "Chapter CODEC" verwendet. Innerhalb eines Kapitels gibt es ein `ChapProcess` Element und dort muss im `ChapProcessCodecID` Element der Wert 0 angegeben werden. `ChapProcessCodecID` hat einen Standard Wert von 0 und muss daher nicht unbedingt vorhanden sein.
+# Matroska Menü
+Für das Matroska Menü werden [Reihenfolgentreue Kapitel](OrderedChapters_ger.md) und ein "Chapter CODEC" verwendet. Innerhalb eines Kapitels gibt es ein `ChapProcess` Element. In diesem Master Element werden (fast) alle notwendigen Daten für das Matroska Menü gespeichert.
 
-##### Chapter CODEC
-Ein Chapter CODEC ist eine Software, welche alle nativen Matroska Menü Kommandos kennt und diese verarbeiten kann. Die Kommandos müssen empfangen und gesendet werden können.
+#### Chapter CODEC
+Ein Chapter CODEC ist eine Software, welche alle Matroska Menü Kommandos kennt und diese verarbeiten kann. Die Kommandos müssen empfangen und gesendet werden können.
+
+Es gibt momentan zwei existierende Menüsysteme und ein drittes ist in Planung.
+
+## Natives Matroska Menü
+Um dieses System zu nutzen muss im `ChapProcessCodecID` Element der Wert 0 verwendet werden. `ChapProcessCodecID` hat einen Standard Wert von 0 und muss daher nicht unbedingt vorhanden sein.
 
 Momentan gibt es nur ein einziges Kommenado `GotoAndPlay(ChapterUID);`, bei dem zu einem bestimmten Kapitel gesprungen werden soll.
 
