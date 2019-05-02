@@ -16,9 +16,9 @@ Nur im VLC ist natives Matroska Menü eingebaut wurden, aber nicht in alle Versi
 In der Test Datei befindet sich im 5.Kapitel das `GotoAndPlay();` Kommando. Dabei soll bevor das 5.Kapitel abgespielt wird, zum 2.Kapitel gesprungen werden.
 
 #### Test Dateien
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/Native/GotoAndPlay.xml)
+[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/MatroskaMenu/files/MatroskaMenu/Native/GotoAndPlay.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/Native/GotoAndPlay.mkv)
+[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/MatroskaMenu/files/MatroskaMenu/Native/GotoAndPlay.mkv)
 
 ## Matroska DVD Menü
 Um dieses System zu nutzen muss im `ChapProcessCodecID` Element der Wert 1 verwendet werden.
