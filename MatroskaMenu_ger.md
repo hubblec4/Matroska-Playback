@@ -16,6 +16,19 @@ Nur im VLC ist natives Matroska Menü eingebaut wurden, aber nicht in alle Versi
 In der Test Datei befindet sich im 5.Kapitel das `GotoAndPlay();` Kommando. Dabei soll bevor das 5.Kapitel abgespielt wird, zum 2.Kapitel gesprungen werden.
 
 #### Test Dateien
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MenuNative/GotoAndPlay.xml)
+[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/Native/GotoAndPlay.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MenuNative/GotoAndPlay.mkv)
+[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/Native/GotoAndPlay.mkv)
+
+## Matroska DVD Menü
+Um dieses System zu nutzen muss im `ChapProcessCodecID` Element der Wert 1 verwendet werden.
+
+Matroska borgt sich das DVD Menü System. Dabei werden die Strukturen des Menüs, die DVD Kommandos und die VOB-Buttons verwendet. Weitehin wird noch ein "Control Track" für die Interaktionen genutzt.
+
+In der Segment/Info(`ChapterTranslate` und `SegmentFamily`) und in den Tracks(`TrackTranslate`) gibt es weitere Elemente die zu diesem System gehören.
+
+Nur im VLC ist dieses System eingebaut, allerdings funktioniert es in den heutigen Versionen nicht mehr.
+
+[DVDMenuXtractor](https://github.com/Matroska-Org/dvdmenuxtractor) kann zwar eine DVD in seine Bestandteile zerlegen, aber es ist sehr veraltet und funktioniert mit dem heutigen MKVToolNix nicht mehr.
+
+[Matroska DVD Menü Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/DVD/MatroskaDVDMenuTNG-S6-D1.zip)
