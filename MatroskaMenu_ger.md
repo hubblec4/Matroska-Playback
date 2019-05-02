@@ -23,12 +23,14 @@ In der Test Datei befindet sich im 5.Kapitel das `GotoAndPlay();` Kommando. Dabe
 ## Matroska DVD Menü
 Um dieses System zu nutzen muss im `ChapProcessCodecID` Element der Wert 1 verwendet werden.
 
-Matroska borgt sich das DVD Menü System. Dabei werden die Strukturen des Menüs, die DVD Kommandos und die VOB-Buttons verwendet. Weitehin wird noch ein "Control Track" für die Interaktionen genutzt.
+Matroska borgt sich das DVD Menü System. Dabei werden die Strukturen des Menüs, die DVD Kommandos und die VOB-Butons verwendet. Weitehin wird noch ein "Control Track" für die Interaktionen genutzt.
 
 In der Segment/Info(`ChapterTranslate` und `SegmentFamily`) und in den Tracks(`TrackTranslate`) gibt es weitere Elemente die zu diesem System gehören.
 
 Nur im VLC ist dieses System eingebaut, allerdings funktioniert es in den heutigen Versionen nicht mehr.
 
 [DVDMenuXtractor](https://github.com/Matroska-Org/dvdmenuxtractor) kann zwar eine DVD in seine Bestandteile zerlegen, aber es ist sehr veraltet und funktioniert mit dem heutigen MKVToolNix nicht mehr.
+
+Ich habe für die Test Dateien eine StarTrek TNG DVD genommen. Es sind nur die XML Dateien und die VOB-Buton Datei im zip enthalten.
 
 [Matroska DVD Menü Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/DVD/MatroskaDVDMenuTNG-S6-D1.zip)
