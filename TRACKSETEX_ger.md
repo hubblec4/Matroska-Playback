@@ -1,5 +1,5 @@
 # TRACKSETEX - Erweiterte Spurenauswahl
-Mit TRACKSETEX können mehrere vordefinierte Spuren mit einer Aktion gewechselt werden. Zusätzlich kann noch eine Versionen UID angegeben werden, damit diese dann verwendet wird.
+Mit TRACKSETEX können mehrere vordefinierte Spuren mit einer Aktion gewechselt werden. Zusätzlich kann noch eine UID für eine Version angegeben werden, damit diese dann verwendet wird.
 
 TRACKSETEX ist kein offizieller Bestandteil der Matroska Specs und kann nur mit den Matroska Tags realisiert werden.
 
