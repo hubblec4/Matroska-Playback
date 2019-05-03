@@ -6,7 +6,7 @@ TRACKSETEX ist kein offizieller Bestandteil der Matroska Specs und kann nur mit 
 [Haali Splitter](https://haali.su/mkv/) ist die einzigste Software die TRACKSETEX unterstützt.
 
 ## TRACKSETEX in der Praxis
-TRACKSETEX ist nicht wirklich weit verbreitet aber ich persönlich habe es sehr gern genutzt. Bei einigen Blu-rays kann es vorkommen, dass eine erweiterte Filmversion vorhanden ist, welche aber nur Englishen Ton hat. Weiterhin gibt es erzwungene Untertitel für Deutsch und English und andere Sprachen. Wenn man während des Video schauens eine andere Sprache haben möchte und die dazugehörigen Untertitel, so muss ein Benutzer zwei Aktionen im Player ausführen. Wenn nun noch die andere Filmversion ausgewählt werden muss, dann bedarf dies einer dritten Aktion des Benutzers. Mit TRACKSETEX werden alle 3 Aktionen auf eine Akttion reduziert. TRACKSETEX ist ein Set von Aktionen.
+TRACKSETEX ist nicht wirklich weit verbreitet aber ich persönlich habe es sehr gern genutzt. Bei einigen Blu-rays kann es vorkommen, dass eine erweiterte Filmversion vorhanden ist, welche aber nur Englishen Ton hat. Weiterhin gibt es erzwungene Untertitel für Deutsch und English und andere Sprachen. Wenn man während des Video schauens eine andere Sprache haben möchte und die dazugehörigen Untertitel, so muss ein Benutzer zwei Aktionen im Player ausführen. Wenn nun noch die andere Filmversion ausgewählt werden muss, dann bedarf dies einer dritten Aktion des Benutzers. Mit TRACKSETEX werden alle 3 Aktionen auf eine Aktion reduziert. TRACKSETEX ist ein Set von Aktionen.
 
 ## TRACKSETEX Aufbau
 ### Parameter
