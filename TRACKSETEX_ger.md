@@ -5,9 +5,6 @@ TRACKSETEX ist kein offizieller Bestandteil der Matroska Specs und kann nur mit 
 
 [Haali Splitter](https://haali.su/mkv/) ist die einzigste Software die TRACKSETEX unterstützt.
 
-## TRACKSETEX in der Praxis
-TRACKSETEX ist nicht wirklich weit verbreitet aber ich persönlich habe es sehr gern genutzt. Bei einigen Blu-rays kann es vorkommen, dass eine erweiterte Filmversion vorhanden ist, welche aber nur Englishen Ton hat. Weiterhin gibt es erzwungene Untertitel für Deutsch und English und andere Sprachen. Wenn man während des Video schauens eine andere Sprache haben möchte und die dazugehörigen Untertitel, so muss ein Benutzer zwei Aktionen im Player ausführen. Wenn nun noch die andere Filmversion ausgewählt werden muss, dann bedarf dies einer dritten Aktion des Benutzers. Mit TRACKSETEX werden alle 3 Aktionen auf eine Aktion reduziert. TRACKSETEX ist ein Set von Aktionen.
-
 ## TRACKSETEX Aufbau
 ### Parameter
 Es gibt 6 Parameter, die durch ein Leerzeichen getrennt sind. Der letzte Parameter ist optional.
@@ -32,3 +29,23 @@ Der Spurindex ist gleich dem Index, den [mkvmerge](https://mkvtoolnix.download/d
 
 #### Ein kleines `x`
 Ein kleines `x` wird nur im 4.Parameter verwendet und sorgt dafür, dass kein Untertitel im Player angezeigt werden soll.
+
+## TRACKSETEX in Matroska Tags
+<Tag>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>. . #0 #0 ger Deutsch + forced subs</String>
+    </Simple>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>. . #1 #2 eng English + forced subs</String>
+    </Simple>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>. . #1 #3 eng English + hearing-impaired</String>
+   </Simple>
+</Tag>
+
+
+## TRACKSETEX in der Praxis
+TRACKSETEX ist nicht wirklich weit verbreitet aber ich persönlich habe es sehr gern genutzt. Bei einigen Blu-rays kann es vorkommen, dass eine erweiterte Filmversion vorhanden ist, welche aber nur Englishen Ton hat. Weiterhin gibt es erzwungene Untertitel für Deutsch und English und andere Sprachen. Wenn man während des Video schauens eine andere Sprache haben möchte und die dazugehörigen Untertitel, so muss ein Benutzer zwei Aktionen im Player ausführen. Wenn nun noch die andere Filmversion ausgewählt werden muss, dann bedarf dies einer dritten Aktion des Benutzers. Mit TRACKSETEX werden alle 3 Aktionen auf eine Aktion reduziert. TRACKSETEX ist ein Set von Aktionen.
