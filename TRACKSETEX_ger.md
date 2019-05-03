@@ -26,7 +26,7 @@ Der Punkt `.` ist offiziell für die Parameter 2 bis 4 vorgesehen und bedeutet, 
 Der Punkt `.` kann auch für den 1.Parameter genutzt werden. Dies bedeutet, dass die aktuelle Version nicht gewechselt werden soll. Alternativ kann man irgendeine Zahl eingeben, die zu keiner VerisonsUID passt. Die 0 passt 100% zu keiner VersionsUID, weil die 0 laut Matroska Specs nicht erlaubt ist.
 
 #### Die Raute `#`
-Die Raute `#` kann für die Parameter 2 bis 4 benutzt werden. Diese gibt an, dass die folgende Zahl ein Spurindex ist. Ohne die Raute `#` muss die Zahl eine UID sein, die zu der entsprechenden Spur gehört.
+Die Raute `#` kann für die Parameter 2 bis 4 benutzt werden. Dies gibt an, dass die folgende Zahl ein Spurindex ist. Ohne die Raute `#` muss die Zahl eine UID sein, die zu der entsprechenden Spur gehört.
 
 Der Spurindex ist gleich dem Index, den [mkvmerge](https://mkvtoolnix.download/doc/mkvmerge.html) für die Spuren verwendet. Zu beachten ist, dass jede Art von Spur einen eigenen Index-Zähler hat. Eine 1.Videospur und eine 1.Audiospur sowie eine 1.Untertitelspur haben allen den Index 0.
 
