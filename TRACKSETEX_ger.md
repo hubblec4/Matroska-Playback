@@ -9,14 +9,14 @@ TRACKSETEX ist kein offizieller Bestandteil der Matroska Specs und kann nur mit 
 ### Parameter
 Es gibt 6 Parameter, die durch ein Leerzeichen getrennt sind. Der letzte Parameter ist optional.
 
-1. Versionen UID
+1. Version UID
 2. Videospur UID oder Spurindex
 3. Audiospur UID oder Spurindex
-4. Untertitel UID oder Spurindex
+4. Untertitelspur UID oder Spurindex
 5. 3-buchstabiger Sprachcode (eng,ger)
 6. ein optionaler Name für dieses TrackSet
 
-### vordefinierte Platzhalter
+### Vordefinierte Platzhalter
 #### Der Punkt `.`
 Der Punkt `.` ist offiziell für die Parameter 2 bis 4 vorgesehen und bedeutet, dass die aktuell ausgewählte Spur NICHT gewechselt werden soll. Wenn man zum Beispiel nur die Audiospur wechseln möchte, dann wird im 2. und 4. Parameter der Punkt `.` gesetzt.
 
@@ -31,7 +31,7 @@ Der Spurindex ist gleich dem Index, den [mkvmerge](https://mkvtoolnix.download/d
 Ein kleines `x` wird nur im 4.Parameter verwendet und sorgt dafür, dass kein Untertitel im Player angezeigt werden soll.
 
 ## TRACKSETEX in Matroska Tags
-Es wird ein `Tag` benutzt mit je einem `SimpleTag` (im XML nur `Simple`) für jedes TRACKSETEX. Es wird kein `Target` Element verwendet. Im `Name` Element wird das Schlüsselwort "TRACKSETEX" eingeben und in das `String` Element werden die Paramter gespeichert.
+Es wird ein `Tag` benutzt mit je einem `SimpleTag` (im XML nur `Simple`) für jeden TrackSet. Es wird kein `Target` Element verwendet. Im `Name` Element wird das Schlüsselwort "TRACKSETEX" eingeben und in das `String` Element werden die Paramter gespeichert.
 
 ## TRACKSETEX in der Praxis
 TRACKSETEX ist nicht wirklich weit verbreitet aber ich persönlich habe es sehr gern genutzt. Bei einigen Blu-rays kann es vorkommen, dass eine erweiterte Filmversion vorhanden ist, welche aber nur Englishen Ton hat. Weiterhin gibt es erzwungene Untertitel für Deutsch und English und andere Sprachen. Wenn man während des Video schauens eine andere Sprache haben möchte und die dazugehörigen Untertitel, so muss ein Benutzer zwei Aktionen im Player ausführen. Wenn nun noch die andere Filmversion ausgewählt werden muss, dann bedarf dies einer dritten Aktion des Benutzers. Mit TRACKSETEX werden alle 3 Aktionen auf eine Aktion reduziert. TRACKSETEX ist ein Set von Aktionen.
