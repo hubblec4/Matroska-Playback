@@ -34,7 +34,7 @@ A small `x` is only used in the 4th parameter and ensures that no subtitle is di
 A `Tag` is used with one `SimpleTag` (in the XML only `Simple`) for each TrackSet. No `Target` element is used. In the `Name` element the keyword "TRACKSETEX" is entered and in the `String` element the parameters are stored.
 
 ## TRACKSETEX in practice
-TRACKSETEX is not really widespread but I personally enjoyed it very much. With some Blu-rays, it may happen that an extended movie version is available, but which has only English sound. There are also forced subtitles for German and English and other languages. If you want to have a different language while watching the video and the associated subtitles, a user must perform two actions in the player. If now the other film version must be selected, then this requires a third action of the user. With TRACKSETEX all 3 actions are reduced to one action. TRACKSETEX is a set of actions.
+TRACKSETEX is not really widespread but I personally enjoyed it very much. With some Blu-rays, it may happen that an extended movie version is available, but which has only English sound. There are also forced subtitles for German and English and other languages. If you want to have a different language while watching the video and the associated subtitles, a user must perform two actions in the player. If now the other movie version must be selected, then this requires a third action of the user. With TRACKSETEX all 3 actions are reduced to one action. TRACKSETEX is a set of actions.
 
 ### Test files
 [Matroska Tags XML file](https://github.com/hubblec4/Matroska-Playback/blob/TRACKSETEX/files/TRACKSETEX/TRACKSETEX.xml)
