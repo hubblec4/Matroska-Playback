@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE Tags SYSTEM "matroskatags.dtd">-->
+<Tags>
+  <Tag>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>1 #0 #0 #2 eng English: 1.Edition with forced subs</String>
+      <TagLanguage>und</TagLanguage>
+      <DefaultLanguage>0</DefaultLanguage>
+    </Simple>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>1 #0 #0 #1 eng English: 1.Edition with full subs</String>
+      <TagLanguage>und</TagLanguage>
+      <DefaultLanguage>0</DefaultLanguage>
+    </Simple>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>2 #1 #1 #0 ger Deutsch: 2.Version mit erzwungenen Untertiteln</String>
+      <TagLanguage>und</TagLanguage>
+      <DefaultLanguage>0</DefaultLanguage>
+    </Simple>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>2 #1 #1 #1 ger Deutsch: 2.Version mit vollen Untertiteln</String>
+      <TagLanguage>und</TagLanguage>
+      <DefaultLanguage>0</DefaultLanguage>
+    </Simple>
+    <Simple>
+      <Name>TRACKSETEX</Name>
+      <String>. . . x und No Subs</String>
+      <TagLanguage>und</TagLanguage>
+      <DefaultLanguage>0</DefaultLanguage>
+    </Simple>
+  </Tag>
+</Tags>
