@@ -63,3 +63,8 @@ Alle getesteten Player spielen die 2. Version ab, weil die 1. Version unsichtbar
 [XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
 
 [Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
+
+## Versions Name
+Leider fehlt ein solches Unterelement in der Versionsstruktur und man muss die Matroska Tags benutzen.
+
+Für jede Version muss ein `Tag` Element benutzt werden. Im `Targets` Elment wird im `TagEditionUID` Element (im XML nur `EditionUID`) die entsprechende UID eingetragen. Im `SimpleTag` (im XML nur `Simple`) wird im `TagName` (im XML nur `Name`) der offizielle Matroska Tag "Title" eingegeben und im `TagString` Element (im XML nur `String`) wird ein Name für die Version gespeichert.
