@@ -27,7 +27,7 @@ Die "erste" Version bei der das `EditionFlagDefault` Element gefunden wurde und 
 Ein guter Matroska Player sollte ein schnell zu erreichendes Auswahlmenü für die Versionen besitzen. Ähnlich wie wenn man die Audiospur oder Untertitelspur wechseln kann.
 
 ## Test Dateien
-Es gibt immer zwei Versionen und nur die zweite ist reihenfolgentreu und das dritte Kapitel ist deaktiviert. Dadurch fehlen 10 Sekunden des Videos und man kann schneller erkennen welche Version nach dem Starten verwendet wird. Ich habe ein paar Beipiele, für die zahlreichen Möglichkeiten, die durch die Kombination der Versions Schalter entstehen vorbereitet.
+Es gibt immer zwei Versionen und nur die zweite ist reihenfolgentreu und das dritte Kapitel ist deaktiviert. Dadurch fehlen 10 Sekunden des Videos und man kann schneller erkennen welche Version nach dem Starten verwendet wird. Ich habe ein paar Beipiele, für die zahlreichen Möglichkeiten, die durch die Kombinationen der Versions Schalter entstehen, vorbereitet.
 
 #### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu
 [XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.xml)
