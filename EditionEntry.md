@@ -12,7 +12,7 @@ If this element is set to 1 then the Edition is ordered and uses [Ordered Chapte
 If this element is set to 1 then the Edition is hidden and no chapter markers are generated for the timeline. Furthermore, a player should NOT "show" this Edition, meaning the user can not see or select this Edition.
 
 ## `EditionFlagDefault`
-If this element is set to 1 then the version is
+If this element is set to 1 then the Edition is
 the default Edition and should be preferred by the player.
 
 Unfortunately this element can be found in every Edition and you would have several default Editions. In addition, it has been determined that the `EditionFlagHidden` element has a "higher" value. As a result, the `EditionFlagDefault` element is negated in certain settings and a non-default Edition is still the default Edition.
