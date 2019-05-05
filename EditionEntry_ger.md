@@ -1,7 +1,7 @@
 # Matroska EditionEntry
 Die wortwörtliche Übersetzung wäre "Ausgabe-Eintrag". Ich verwende den Begriff "Version" in der Beschreibung.
 
-Alle Kapitel befinden sich immer innerhalb einer Version und es können mehere Versionen vorhanden sein. Ebenso kann eine Version reihenfolgentreu sein und eine andere nicht.
+Alle Kapitel befinden sich immer innerhalb einer Version und es können mehrere Versionen vorhanden sein. Ebenso kann eine Version reihenfolgentreu sein und eine andere nicht.
 
 Es gibt momentan 3 Schalter(0=nein, 1=ja) für die Version. Allerdings sind die Matroska Specs nicht klar definiert und es gibt Unstimmigkeiten im Umgang mit den Schaltern.
 
