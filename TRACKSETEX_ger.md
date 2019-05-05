@@ -31,7 +31,7 @@ Der Spurindex ist gleich dem Index, den [mkvmerge](https://mkvtoolnix.download/d
 Ein kleines `x` wird nur im 4.Parameter verwendet und sorgt dafür, dass kein Untertitel im Player angezeigt werden soll.
 
 ## TRACKSETEX in Matroska Tags
-Es wird ein `Tag` benutzt mit je einem `SimpleTag` (im XML nur `Simple`) für jeden TrackSet. Es wird kein `Target` Element verwendet. Im `TagName` Element (im XML nur `Name`) wird das Schlüsselwort "TRACKSETEX" eingeben und in das `TagString` Element (im XML nur `String`) werden die Paramter gespeichert.
+Es wird ein `Tag` benutzt mit je einem `SimpleTag` (im XML nur `Simple`) für jeden TrackSet. Es wird kein `Target` Element verwendet. Im `TagName` Element (im XML nur `Name`) wird das Schlüsselwort "TRACKSETEX" eingegeben und in das `TagString` Element (im XML nur `String`) werden die Paramter gespeichert.
 
 ## TRACKSETEX in der Praxis
 TRACKSETEX ist nicht wirklich weit verbreitet aber ich persönlich habe es sehr gern genutzt. Bei einigen Blu-rays kann es vorkommen, dass eine erweiterte Filmversion vorhanden ist, welche aber nur Englishen Ton hat. Weiterhin gibt es erzwungene Untertitel für Deutsch und English und andere Sprachen. Wenn man während des Video schauens eine andere Sprache haben möchte und die dazugehörigen Untertitel, so muss ein Benutzer zwei Aktionen im Player ausführen. Wenn nun noch die andere Filmversion ausgewählt werden muss, dann bedarf dies einer dritten Aktion des Benutzers. Mit TRACKSETEX werden alle 3 Aktionen auf eine Aktion reduziert. TRACKSETEX ist ein Set von Aktionen.
