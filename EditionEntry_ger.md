@@ -17,7 +17,7 @@ die Standard Version und soll vom Player bevorzugt verwendet werden.
 
 Leider kann dieses Element in jeder Version vorkommen und man hätte dann mehrere Standard Versionen. Hinzu kommt, dass festgelegt worden ist, dass das `EditionFlagHidden` Element eine "höhere" Wertigkeit hat. Dadurch wird bei gewissen Einstellungen das `EditionFlagDefault` Element negiert und eine NICHT Standard Version ist dann trotzdem die Standard Version.
 
-Das ist meiner Meinung nach alles sehr viel Verwirrung und ich hatte vollgendes vorgeschlagen für die Matroska Specs.
+Das ist meiner Meinung nach alles sehr viel Verwirrung und ich hatte folgendes vorgeschlagen für die Matroska Specs.
 
 Das `EditionFlagDefault` Element muss in die Ebene 1 verschoben werden und ist dann nur noch einmal vorhanden und müsste vielleicht umbenannt werden zu `EditionDefaultUID`.
 
