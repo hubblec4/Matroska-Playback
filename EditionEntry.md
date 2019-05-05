@@ -1,70 +1,70 @@
 # Matroska EditionEntry
-Die wortwörtliche Übersetzung wäre "Ausgabe-Eintrag". Ich verwende den Begriff "Version" in der Beschreibung.
+I use the term "Edition" in the description.
 
-Alle Kapitel befinden sich immer innerhalb einer Version und es können mehrere Versionen vorhanden sein. Ebenso kann eine Version reihenfolgentreu sein und eine andere nicht.
+All chapters are always within one Edition and there may be multiple Editions. Likewise, one Edition may be ordered and another may not.
 
-Es gibt momentan 3 Schalter(0=nein, 1=ja) für die Version. Allerdings sind die Matroska Specs nicht klar definiert und es gibt Unstimmigkeiten im Umgang mit den Schaltern.
+There are currently 3 flags (0=no, 1=yes) for the Edition. However, the Matroska specs are not clearly defined and there are disagreements in dealing with the flags.
 
 ## `EditionFlagOrdered`
-Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version reihenfolgentreu und verwendet [Reihenfolgetreue Kapitel](#OrderedChapters.md).
+If this element is set to 1 then the Edition is ordered and uses [Ordered Chapters](#OrderedChapters.md).
 
 ## `EditionFlagHidden`
-Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version unsichtbar und es werden keine Kapitelmarker für die Zeitleiste generiert. Weiterhin sollte ein Player diese Version NICHT "anzeigen", dass bedeutet der Benutzer kann diese Version weder sehen noch auswählen.
+If this element is set to 1 then the Edition is hidden and no chapter markers are generated for the timeline. Furthermore, a player should NOT "show" this Edition, meaning the user can not see or select this Edition.
 
 ## `EditionFlagDefault`
-Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version
-die Standard Version und soll vom Player bevorzugt verwendet werden.
+If this element is set to 1 then the version is
+the default Edition and should be preferred by the player.
 
-Leider kann dieses Element in jeder Version vorkommen und man hätte dann mehrere Standard Versionen. Hinzu kommt, dass festgelegt worden ist, dass das `EditionFlagHidden` Element eine "höhere" Wertigkeit hat. Dadurch wird bei gewissen Einstellungen das `EditionFlagDefault` Element negiert und eine NICHT Standard Version ist dann trotzdem die Standard Version.
+Unfortunately this element can be found in every Edition and you would have several default Editions. In addition, it has been determined that the `EditionFlagHidden` element has a "higher" value. As a result, the `EditionFlagDefault` element is negated in certain settings and a non-default Edition is still the default Edition.
 
-Das ist meiner Meinung nach alles sehr viel Verwirrung und ich hatte vollgendes vorgeschlagen für die Matroska Specs.
+It's all a lot of confusion in my opinion and I suggested the following for the Matroska specs.
 
-Das `EditionFlagDefault` Element muss in die Ebene 1 verschoben werden und ist dann nur noch einmal vorhanden und müsste vielleicht umbenannt werden zu `EditionDefaultUID`.
+The `EditionFlagDefault` element has to be moved to level 1 and then exists only once and might have to be renamed `EditionDefaultUID`.
 
-### Meine Empfehlung für einen Player
-Die "erste" Version bei der das `EditionFlagDefault` Element gefunden wurde und den Wert 1 hat, ist die Standard Verison. Diese Version MUSS dann verwendet werden auch wenn sie unsichtbar ist.
+### My recommendation for a player
+The "first" Edition where the `EditionFlagDefault` element was found and has the value 1 is the default Edition. This Edition MUST be used even if it is hidden.
 
-Ein guter Matroska Player sollte ein schnell zu erreichendes Auswahlmenü für die Versionen besitzen. Ähnlich wie wenn man die Audiospur oder Untertitelspur wechseln kann.
+A good Matroska player should have a quick-to-reach selection menu for the Editions. Similar to when you can change the audio track or subtitle track.
 
-## Test Dateien
-Es gibt immer zwei Versionen und nur die zweite ist reihenfolgentreu und das dritte Kapitel ist deaktiviert. Dadurch fehlen 10 Sekunden des Videos und man kann schneller erkennen welche Version nach dem Starten verwendet wird. Ich habe ein paar Beipiele, für die zahlreichen Möglichkeiten, die durch die Kombinationen der Versions Schalter entstehen, vorbereitet.
+## Test files
+There are always two Editions and only the second is ordered and the third chapter is disabled. This lacks 10 seconds of video and you can see more quickly which Edition is being used after starting. I've prepared a few examples for the numerous possibilities that arise through the combinations of Edition flags.
 
-#### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu
-Der Player sollte die 1. Version abspielen.
+#### Editsion 1 non-ordered - Edition 2 ordered
+The player should play the 1st Edition.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.xml)
+[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.mkv)
+[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.mkv)
 
-#### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu Standard
-Der Player sollte die 2. Version abspielen.
+#### Edition 1 non-ordered - Edition 2 ordered default
+The player should play the 2nd Edition.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.xml)
+[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.mkv)
+[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.mkv)
 
-#### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu unsichtbar Standard
-Alle getesteten Player spielen die 1. Version ab, weil die 2. Version unsichtbar ist. Ein Player sollte aber die 2. Version abspielen, weil sie die Standard Version ist.
+#### Edition 1 non-ordered - Edition 2 ordered hidden default
+All tested players play the 1st Edition, because the 2nd Edition is hidden. A player should play but the 2nd Edition, because it is the default Edition.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.xml)
+[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.mkv)
+[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.mkv)
 
-#### Version 1 nicht reihenfolgentreu unsichtbar - Version 2 reihenfolgentreu
-Der Player sollte die 2. Version abspielen, weil die 1. Version unsichtbar ist.
+#### Edition 1 non-ordered hidden - Edition 2 ordered
+The player should play the 2nd Edition, because the 1st Edition is hidden.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.xml)
+[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.mkv)
+[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.mkv)
 
-#### Version 1 nicht reihenfolgentreu unsichtbar Standard - Version 2 reihenfolgentreu Standard
-Alle getesteten Player spielen die 2. Version ab, weil die 1. Version unsichtbar ist. Ein Player sollte aber die 1. Version abspielen, weil sie die "erste" Standard Version ist.
+#### Edition 1 non-ordered hidden default - Edition 2 ordered default
+All tested players play the 2nd Edition, because the 1st Edition is hidden. A player should play but the first Edition, because it is the first default Edition.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
+[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
+[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
 
-## Versions Name
-Leider fehlt ein solches Unterelement in der Versionsstruktur und man muss die Matroska Tags benutzen.
+## Edition Name
+Unfortunately, such a subelement is missing in the Edition structure and you have to use the Matroska Tags.
 
-Für jede Version muss ein `Tag` Element benutzt werden. Im `Targets` Elment wird im `TagEditionUID` Element (im XML nur `EditionUID`) die entsprechende UID eingetragen. Im `SimpleTag` (im XML nur `Simple`) wird im `TagName` (im XML nur `Name`) der offizielle Matroska Tag "Title" eingegeben und im `TagString` Element (im XML nur `String`) wird ein Name für die Version gespeichert.
+For each Edition a `Tag` element must be used. In `Targets` elment, the corresponding UID is entered in the `TagEditionUID` element (in the XML only `EditionUID`). In the `SimpleTag` (in the XML only` Simple`) the official Matroska tag "TITLE" is entered in the `TagName` (in the XML only` Name`) and in the `TagString` element (in the XML only` String`) a name is saved for the Edition.
