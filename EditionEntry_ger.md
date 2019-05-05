@@ -44,7 +44,7 @@ Der Player sollte die 2. Version abspielen.
 [Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.mkv)
 
 #### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu unsichtbar Standard
-Alle getesteten Player spielen die 1. Version ab, weil die 2. Version unsichtbar ist. Ein Player sollte aber die 2. Version abspielen da sie die Standard Version ist.
+Alle getesteten Player spielen die 1. Version ab, weil die 2. Version unsichtbar ist. Ein Player sollte aber die 2. Version abspielen, weil sie die Standard Version ist.
 
 [XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.xml)
 
@@ -58,7 +58,7 @@ Der Player sollte die 2. Version abspielen, weil die 1. Version unsichtbar ist.
 [Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.mkv)
 
 #### Version 1 nicht reihenfolgentreu unsichtbar Standard - Version 2 reihenfolgentreu Standard
-Alle getesteten Player spielen die 2. Version ab, weil die 1. Version unsichtbar ist. Ein Player sollte aber die 1. Version abspielen da sie die Standard Version ist.
+Alle getesteten Player spielen die 2. Version ab, weil die 1. Version unsichtbar ist. Ein Player sollte aber die 1. Version abspielen, weil sie die "erste" Standard Version ist.
 
 [XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
 
