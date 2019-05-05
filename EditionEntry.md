@@ -6,7 +6,7 @@ Alle Kapitel befinden sich immer innerhalb einer Version und es können mehrere 
 Es gibt momentan 3 Schalter(0=nein, 1=ja) für die Version. Allerdings sind die Matroska Specs nicht klar definiert und es gibt Unstimmigkeiten im Umgang mit den Schaltern.
 
 ## `EditionFlagOrdered`
-Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version reihenfolgentreu und verwendet [Reihenfolgetreue Kapitel](#OrderedChapters_ger.md).
+Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version reihenfolgentreu und verwendet [Reihenfolgetreue Kapitel](#OrderedChapters.md).
 
 ## `EditionFlagHidden`
 Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version unsichtbar und es werden keine Kapitelmarker für die Zeitleiste generiert. Weiterhin sollte ein Player diese Version NICHT "anzeigen", dass bedeutet der Benutzer kann diese Version weder sehen noch auswählen.
@@ -68,5 +68,3 @@ Alle getesteten Player spielen die 2. Version ab, weil die 1. Version unsichtbar
 Leider fehlt ein solches Unterelement in der Versionsstruktur und man muss die Matroska Tags benutzen.
 
 Für jede Version muss ein `Tag` Element benutzt werden. Im `Targets` Elment wird im `TagEditionUID` Element (im XML nur `EditionUID`) die entsprechende UID eingetragen. Im `SimpleTag` (im XML nur `Simple`) wird im `TagName` (im XML nur `Name`) der offizielle Matroska Tag "Title" eingegeben und im `TagString` Element (im XML nur `String`) wird ein Name für die Version gespeichert.
-
-In den Matroska Test Dateien haben die Versionen einen Namen, der in den Matroska Tags enthalten ist.
