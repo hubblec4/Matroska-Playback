@@ -9,7 +9,7 @@ There are currently 3 flags (0=no, 1=yes) for the Edition. However, the Matroska
 If this element is set to 1 then the Edition is ordered and uses [Ordered Chapters](#OrderedChapters.md).
 
 ## `EditionFlagHidden`
-If this element is set to 1 then the Edition is hidden and no chapter markers are generated for the timeline. Furthermore, a player should NOT "show" this Edition, meaning the user can not see or select this Edition.
+If this element is set to 1 then the Edition is hidden/invisible and no chapter markers are generated for the timeline. Furthermore, a player should NOT "show" this Edition, meaning the user can not see or select this Edition.
 
 ## `EditionFlagDefault`
 If this element is set to 1 then the Edition is
