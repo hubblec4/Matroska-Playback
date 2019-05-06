@@ -37,13 +37,13 @@ Es wird ein `Tag` benutzt mit je einem `SimpleTag` (im XML nur `Simple`) für je
 TRACKSETEX ist nicht wirklich weit verbreitet aber ich persönlich habe es sehr gern genutzt. Bei einigen Blu-rays kann es vorkommen, dass eine erweiterte Filmversion vorhanden ist, welche aber nur Englishen Ton hat. Weiterhin gibt es erzwungene Untertitel für Deutsch und English und andere Sprachen. Wenn man während des Video schauens eine andere Sprache haben möchte und die dazugehörigen Untertitel, so muss ein Benutzer zwei Aktionen im Player ausführen. Wenn nun noch die andere Filmversion ausgewählt werden muss, dann bedarf dies einer dritten Aktion des Benutzers. Mit TRACKSETEX werden alle 3 Aktionen auf eine Aktion reduziert. TRACKSETEX ist ein Set von Aktionen.
 
 ### Test Dateien
-[Matroska Tags XML Datei](https://github.com/hubblec4/Matroska-Playback/blob/TRACKSETEX/files/TRACKSETEX/TRACKSETEX.xml)
+[Matroska Tags XML Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/TRACKSETEX/TRACKSETEX.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/TRACKSETEX/files/TRACKSETEX/TRACKSETEX.mkv)
+[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/TRACKSETEX/TRACKSETEX.mkv)
 
 Haali Splitter Popup Menü vom System Tray Icon
 
-![Haali Splitter Popup Menü](https://github.com/hubblec4/Matroska-Playback/blob/TRACKSETEX/files/TRACKSETEX/Haali-TRACKSETEX.jpg)
+![Haali Splitter Popup Menü](https://github.com/hubblec4/Matroska-Playback/blob/master/files/TRACKSETEX/Haali-TRACKSETEX.jpg)
 
 ### TRACKSETEX erstellen und bearbeiten
 In einer [älteren Version](https://gleitz.info/index.php?attachment/99383-chaptereditor-rev0-51-7z/) des [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) gibt es einen TRACKSETEX Editor. Das erstellen oder bearbeiten der TrackSet's geht damit sehr schnell und einfach.
