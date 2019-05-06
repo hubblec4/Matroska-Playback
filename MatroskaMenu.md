@@ -20,7 +20,7 @@ The test file contains the `GotoAndPlay ();` command in the 5th chapter. It shou
 
 [Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/MatroskaMenu/files/MatroskaMenu/Native/GotoAndPlay.mkv)
 
-## Matroska DVD Menu
+## Matroska DVD Menu (Matroska Soft-Linking)
 To use this system, the value 1 must be used in the` ChapProcessCodecID` element.
 
 Matroska borrows the DVD menu system. The structure of the menu, the DVD commands and the VOB-Butons are used. In addition, a "Control Track" is still used for the interactions.
