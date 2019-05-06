@@ -44,3 +44,8 @@ TRACKSETEX is not really widespread but I personally enjoyed it very much. With 
 Haali Splitter popup menu from system Tray Icon
 
 ![Haali Splitter popup menu](https://github.com/hubblec4/Matroska-Playback/blob/TRACKSETEX/files/TRACKSETEX/Haali-TRACKSETEX.jpg)
+
+### Create and edit TRACKSETEX
+In [older version](https://gleitz.info/index.php?attachment/99383-chaptereditor-rev0-51-7z/) of [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) there is a TRACKSETEX editor. Creating or editing the TrackSet's is very quick and easy.
+
+![TRACKSETEX editor](https://github.com/hubblec4/Matroska-Playback/blob/master/files/TRACKSETEX/cE/Haali_TrackSetEx_eng.jpg)
