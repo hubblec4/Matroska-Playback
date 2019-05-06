@@ -16,9 +16,9 @@ Only in the VLC player native Matroska menu was installed, but not in all versio
 The test file contains the `GotoAndPlay ();` command in the 5th chapter. It should be jumped to the second chapter before the 5th chapter is played.
 
 #### Test files
-[XML Matroska chapter file](https://github.com/hubblec4/Matroska-Playback/blob/MatroskaMenu/files/MatroskaMenu/Native/GotoAndPlay.xml)
+[XML Matroska chapter file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/Native/GotoAndPlay.xml)
 
-[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/MatroskaMenu/files/MatroskaMenu/Native/GotoAndPlay.mkv)
+[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/Native/GotoAndPlay.mkv)
 
 ## Matroska DVD Menu (Matroska Soft-Linking)
 To use this system, the value 1 must be used in the` ChapProcessCodecID` element.
@@ -33,7 +33,7 @@ Only in VLC player this system is installed, but it does not work anymore in tod
 
 I took a StarTrek TNG DVD for the test files. Only the XML files and the VOB-Buton file are included in the zip.
 
-[Matroska DVD Menu test files](https://github.com/hubblec4/Matroska-Playback/blob/MatroskaMenu/files/MatroskaMenu/DVD/MatroskaDVDMenuTNG-S6-D1.zip)
+[Matroska DVD Menu test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/MatroskaMenu/DVD/MatroskaDVDMenuTNG-S6-D1.zip)
 
 ## Interactive Movie
 This system is [planned](https://wiki.videolan.org/SoC_2019/#Interactive_movie_support) for the VLC player, but not yet part of the Matroska Specs.
