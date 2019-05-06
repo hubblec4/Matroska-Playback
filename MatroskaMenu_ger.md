@@ -20,7 +20,7 @@ In der Test Datei befindet sich im 5.Kapitel das `GotoAndPlay();` Kommando. Dabe
 
 [Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/MatroskaMenu/files/MatroskaMenu/Native/GotoAndPlay.mkv)
 
-## Matroska DVD Menü
+## Matroska DVD Menü (Matroska Soft-Linking)
 Um dieses System zu nutzen muss im `ChapProcessCodecID` Element der Wert 1 verwendet werden.
 
 Matroska borgt sich das DVD Menü System. Dabei werden die Strukturen des Menüs, die DVD Kommandos und die VOB-Butons verwendet. Weitehin wird noch ein "Control Track" für die Interaktionen genutzt.
