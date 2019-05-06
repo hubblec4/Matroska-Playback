@@ -46,6 +46,6 @@ Haali Splitter Popup Menü vom System Tray Icon
 ![Haali Splitter Popup Menü](https://github.com/hubblec4/Matroska-Playback/blob/TRACKSETEX/files/TRACKSETEX/Haali-TRACKSETEX.jpg)
 
 ### TRACKSETEX erstellen und bearbeiten
-In einer [älteren Version](https://gleitz.info/index.php?attachment/99383-chaptereditor-rev0-51-7z/) des [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) gibt es einen TRACKSETEX Editor. Das Erstellen neuer TrackSet's oder das bearbeiten geht damit sehr schnell und einfach.
+In einer [älteren Version](https://gleitz.info/index.php?attachment/99383-chaptereditor-rev0-51-7z/) des [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) gibt es einen TRACKSETEX Editor. Das Erstellen oder Bearbeiten der TrackSet's geht damit sehr schnell und einfach.
 
 ![TRACKSETEX Editor](https://github.com/hubblec4/Matroska-Playback/blob/master/files/TRACKSETEX/cE/Haali_TrackSetEx_ger.jpg)
