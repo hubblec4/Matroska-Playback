@@ -1,5 +1,5 @@
 # Matroska Player Übersicht
-Diese Übersicht soll zeigen welche Player welche Matroska Funktionen nutzen.
+Diese Übersicht soll zeigen welche Player welche Matroska Eigenschaften nutzen.
 
 ## MPC-HC
 MPC-HC nutzt intern den LAV Filter/Splitter. Dadurch addieren sich die genutzen Matroska Eigenschaften. Weiterhin können andere externe DirectShow Filter verwendet werden, wie zum Beispiel der Haali Splitter, wodurch weitere Matroska Eigenschaften genutzt werden können.
