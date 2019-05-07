@@ -17,4 +17,4 @@ Auswahl der Matroska Versionen | ja | gut | kein internes Versionen Menü, sehr 
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
 [Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| nein | |
 [Video Rotation](Rotate_ger.md)| ja | sehr gut | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
-[TRACKSETEX](TRACKSETEX_ger.md)| nein | sehr gut | nur mit den Haali Splitter
+[TRACKSETEX](TRACKSETEX_ger.md)| nein | sehr gut | nur mit dem Haali Splitter
