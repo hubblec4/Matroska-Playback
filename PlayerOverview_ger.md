@@ -6,12 +6,12 @@ MPC-HC nutzt intern den LAV Filter/Splitter. Dadurch addieren sich die genutzen 
 
 Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 ---------------------|:---------:|:------------:|----------
-[Basis Kapitel](#BasicChapters_ger.md)| ja | sehr gut |
-[Verschachtelte Kapitel](#NestedChapters_ger.md)| ja | sehr gut |
-[Reihenfolgentreue Kapitel](#OrderedChapters_ger.md)| ja | sehr gut |
-[Verschachtelte Reihenfolgentreue Kapitel](#NestedOrderedChapters_ger.md)| ja | gut |
-[Matroska Versionen](#EditionEntry_ger.md)| ja | sehr gut |
+[Basis Kapitel](BasicChapters_ger.md)| ja | sehr gut |
+[Verschachtelte Kapitel](NestedChapters_ger.md)| ja | sehr gut |
+[Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | sehr gut |
+[Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut |
+[Matroska Versionen](EditionEntry_ger.md)| ja | sehr gut |
 Auswahl der Matroska Versionen | ja | gut | kein internes Versionen Menü, nur über den Splitter
-[Matroska Hard-Linking](#HardLinking_ger.md)| ja | sehr gut |
-[Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](#ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt
-[Matroska Soft-Linking (Matroska DVD Menü)](#MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt
+[Matroska Hard-Linking](HardLinking_ger.md)| ja | sehr gut |
+[Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt
+[Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt
