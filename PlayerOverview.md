@@ -1,20 +1,20 @@
-# Matroska Player Übersicht
-Diese Übersicht soll zeigen welche Player welche Matroska Funktionen nutzen.
+# Matroska Player Overview
+This overview should show which players use which Matroska features.
 
 ## MPC-HC
-MPC-HC nutzt intern den LAV Filter/Splitter. Dadurch addieren sich die genutzen Matroska Eigenschaften. Weiterhin können andere externe DirectShow Filter verwendet werden, wie zum Beispiel der Haali Splitter, wodurch weitere Matroska Eigenschaften genutzt werden können.
+MPC-HC internally uses the LAV Filter/Splitter. This adds up the used Matroska properties. Furthermore, other external DirectShow filters can be used, such as the Haali Splitter, which can be used to further Matroska properties.
 
-Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
----------------------|:---------:|:------------:|----------
-[Basis Kapitel](BasicChapters_ger.md)| ja | sehr gut |
-[Verschachtelte Kapitel](NestedChapters_ger.md)| ja | sehr gut |
-[Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | sehr gut |
-[Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut |
-[Matroska Versionen](EditionEntry_ger.md)| ja | sehr gut |
-Auswahl der Matroska Versionen | ja | gut | kein internes Versionen Menü, sehr gutes Menü im Splitter (LAV oder Haali)
-[Matroska Hard-Linking](HardLinking_ger.md)| ja | sehr gut | Videospur wird perfekt nathlos verbunden
-[Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt
-[Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
-[Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| nein | |
+Matroska properties | present | is working | comment
+--------------------|:-------:|:----------:|----------
+[Basic Chapters](BasicChapters.md) | yes | very good |
+[Nested Chapters](NestedChapters.md) | yes | very good |
+[Ordered Chapters](OrderedChapters.md) | yes | very good |
+[Nested Ordered Chapters](NestedOrderedChapters.md) | yes | good |
+[Matroska Editions](EditionEntry.md)| yes | very good |
+Selection of Matroska Editions | yes | good | no internal Edition menu, very good menu in the Splitter (LAV or Haali)
+[Matroska Hard-Linking](HardLinking.md)| yes | very good | Video track is perfectly seamlessly connected
+[Matroska Medium-Linking (Chapter-Segment-Linking)](ChapterSegmentLinking.md)| yes | good | `ChapterSegmentEditionUID` is not supported
+[Matroska Soft-Linking (Matroska DVD menu)](MatroskaMenu.md#matroska-dvd-menu-matroska-soft-linking)| no | |
+[Native Matroska menu](MatroskaMenu.md#native-matroska-menu)| no | |
 [Video Rotation](Rotate_ger.md)| ja | sehr gut | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
 [TRACKSETEX](TRACKSETEX_ger.md)| nein | sehr gut | nur mit dem Haali Splitter
