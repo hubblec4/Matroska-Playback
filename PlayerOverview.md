@@ -16,5 +16,5 @@ Selection of Matroska Editions | yes | good | no internal Edition menu, very goo
 [Matroska Medium-Linking (Chapter-Segment-Linking)](ChapterSegmentLinking.md)| yes | good | `ChapterSegmentEditionUID` is not supported
 [Matroska Soft-Linking (Matroska DVD menu)](MatroskaMenu.md#matroska-dvd-menu-matroska-soft-linking)| no | |
 [Native Matroska menu](MatroskaMenu.md#native-matroska-menu)| no | |
-[Video Rotation](Rotate_ger.md)| ja | sehr gut | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
-[TRACKSETEX](TRACKSETEX_ger.md)| nein | sehr gut | nur mit dem Haali Splitter
+[Video Rotation](Rotate.md)| yes | very good | only with the Matroska Tags, `ProjectionPoseRoll` is not supported
+[TRACKSETEX](TRACKSETEX.md)| no | very good | only with the Haali Splitter
