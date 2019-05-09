@@ -3,4 +3,15 @@ Das `ChapterTrack` Element kann nur in [Reihenfolgentreuen Kapiteln](OrderedChap
 
 Es gibt leider sehr wenig Information zu diesem Element und in der Praxis ist mir kein Player bekannt der das untersützt.
 
-Die Idee ist, damit gezielt Spuren zu verwenden für verschiede Versionen. Es könnte so ähnlich benutzt werden wie [TRACKSETEX](TRACKSETEX_ger.md). Jedoch kann nur ein TrackSet je Kapitel angelegt werden.
+Die Idee ist, damit gezielt Spuren zu verwenden für verschiedene Versionen. Es könnte so ähnlich benutzt werden wie [TRACKSETEX](TRACKSETEX_ger.md). Jedoch kann nur ein TrackSet je Kapitel angelegt werden.
+
+### Test Dateien
+In der Matroska Datei befinden sich zwei reihenfolgentreue Versionen mit nur einem [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md). Die Dauer des Kapitels ist gleich der Gesamtdauer der Datei. Es gibt zwei Video- und Audiospuren, sowie 4 Untertitelspuren.
+
+In der ersten Versionen sollen nur die 1. Videospur, die 1. Audiospur und die 1. Untertitelspur verwendet werden. In der zweiten Versionen sollen nur die 2. Videospur, die 2.Audiospur und die 3. Untertitelspur verwendet werden.
+
+Ein Player wählt nur diese Spuren aus und benutzt sie für die Wiedergabe.
+
+Sollten mehrere Spuren eines Typs(zum Beispiel 3 Audiospuren) ausgewählt worden sein, dann sollte immer die erste Spur jedes Typs für die Wiedergabe verwendet werden. Ist bei einer der ausgewählten Spuren der `FlagDefault` Schalter aktiviert dann sollte diese Spur für die Wiedergabe benutzt werden. Manche Player können Spuren anhand der Sprache auswählen, und sollte eine Spur mit der bevorzugten Sprache vorhanden sein, dann wird diese für die Wiedergabe verwendet.
+
+[XML Matroska Kapitel Datei]()
