@@ -24,6 +24,6 @@ Another option would be to replicate the nesting structure in a popup menu so th
 For a Matroska menu based on Chapter-Segment-Linking, many chapters are often used, sometimes almost 1000. It is then not possible to represent this number in a single level. You then have to search a lot and scroll in the chapter menu to find the desired chapter.
 
 ### Test files
-[XML Chapter file](files/NestedChapters/NestedChapters.xml)
+[XML Chapter file](/files/NestedChapters/NestedChapters.xml)
 
-[Matroska file](files/NestedChapters/NestedChapters.mkv)
+[Matroska file](/files/NestedChapters/NestedChapters.mkv)
