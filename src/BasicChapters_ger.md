@@ -4,6 +4,6 @@ Wenn das Kapitel unsichtbar oder deaktiviert ist, dann werden keinerlei Daten vo
 Die Kapitelzeiten sollten aufsteigend in der Matroska Datei vorliegen. Wenn das nicht so ist, dann müssen die Kapitelzeiten sortiert werden.
 
 ### Test Dateien
-[XML Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/BasicChapters/BasicChapters.xml)
+[XML Kapitel Datei](/files/BasicChapters/BasicChapters.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/BasicChapters/BasicChapters.mkv)
+[Matroska Datei](/files/BasicChapters/BasicChapters.mkv)
