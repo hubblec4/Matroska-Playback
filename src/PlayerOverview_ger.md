@@ -18,3 +18,4 @@ Auswahl der Matroska Versionen | ja | gut | kein internes Versionen Menü, sehr 
 [Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| nein | |
 [Video Rotation](Rotate_ger.md)| ja | sehr gut | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
 [TRACKSETEX](TRACKSETEX_ger.md)| nein | sehr gut | nur mit dem Haali Splitter
+[Spurauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
