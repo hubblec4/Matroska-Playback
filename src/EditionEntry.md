@@ -6,7 +6,7 @@ All chapters are always within one Edition and there may be multiple Editions. L
 There are currently 3 flags (0=no, 1=yes) for the Edition. However, the Matroska specs are not clearly defined and there are disagreements in dealing with the flags.
 
 ## `EditionFlagOrdered`
-If this element is set to 1 then the Edition is ordered and uses [Ordered Chapters](#OrderedChapters.md).
+If this element is set to 1 then the Edition is ordered and uses [Ordered Chapters](OrderedChapters.md).
 
 ## `EditionFlagHidden`
 If this element is set to 1 then the Edition is hidden/invisible and no chapter markers are generated for the timeline. Furthermore, a player should NOT "show" this Edition, meaning the user can not see or select this Edition.
@@ -32,37 +32,37 @@ There are always two Editions and only the second is ordered and the third chapt
 #### Editsion 1 non-ordered - Edition 2 ordered
 The player should play the 1st Edition.
 
-[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.xml)
+[XML Matroska Chapters file](/files/EditionEntry/E1nonOrdered-E2Ordered.xml)
 
-[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.mkv)
+[Matroska file](/files/EditionEntry/E1nonOrdered-E2Ordered.mkv)
 
 #### Edition 1 non-ordered - Edition 2 ordered default
 The player should play the 2nd Edition.
 
-[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.xml)
+[XML Matroska Chapters file](/files/EditionEntry/E1nonOrdered-E2OrderedDefault.xml)
 
-[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.mkv)
+[Matroska file](/files/EditionEntry/E1nonOrdered-E2OrderedDefault.mkv)
 
 #### Edition 1 non-ordered - Edition 2 ordered hidden default
 All tested players play the 1st Edition, because the 2nd Edition is hidden. A player should play but the 2nd Edition, because it is the default Edition.
 
-[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.xml)
+[XML Matroska Chapters file](/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.xml)
 
-[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.mkv)
+[Matroska file](/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.mkv)
 
 #### Edition 1 non-ordered hidden - Edition 2 ordered
 The player should play the 2nd Edition, because the 1st Edition is hidden.
 
-[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.xml)
+[XML Matroska Chapters file](/files/EditionEntry/E1nonOrderedHidden-E2Ordered.xml)
 
-[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.mkv)
+[Matroska file](/files/EditionEntry/E1nonOrderedHidden-E2Ordered.mkv)
 
 #### Edition 1 non-ordered hidden default - Edition 2 ordered default
 All tested players play the 2nd Edition, because the 1st Edition is hidden. A player should play but the first Edition, because it is the first default Edition.
 
-[XML Matroska Chapters file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
+[XML Matroska Chapters file](/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
 
-[Matroska file](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
+[Matroska file](/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
 
 ## Edition Name
 Unfortunately, such a subelement is missing in the Edition structure and you have to use the Matroska Tags.

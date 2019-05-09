@@ -6,7 +6,7 @@ Alle Kapitel befinden sich immer innerhalb einer Version und es können mehrere 
 Es gibt momentan 3 Schalter(0=nein, 1=ja) für die Version. Allerdings sind die Matroska Specs nicht klar definiert und es gibt Unstimmigkeiten im Umgang mit den Schaltern.
 
 ## `EditionFlagOrdered`
-Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version reihenfolgentreu und verwendet [Reihenfolgetreue Kapitel](#OrderedChapters_ger.md).
+Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version reihenfolgentreu und verwendet [Reihenfolgetreue Kapitel](OrderedChapters_ger.md).
 
 ## `EditionFlagHidden`
 Wenn bei diesem Element der Wert 1 gesetzt wird, dann ist die Version unsichtbar und es werden keine Kapitelmarker für die Zeitleiste generiert. Weiterhin sollte ein Player diese Version NICHT "anzeigen", dass bedeutet der Benutzer kann diese Version weder sehen noch auswählen.
@@ -32,37 +32,37 @@ Es gibt immer zwei Versionen und nur die zweite ist reihenfolgentreu und das dri
 #### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu
 Der Player sollte die 1. Version abspielen.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.xml)
+[XML Matroska Kapitel Datei](/files/EditionEntry/E1nonOrdered-E2Ordered.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2Ordered.mkv)
+[Matroska Datei](/files/EditionEntry/E1nonOrdered-E2Ordered.mkv)
 
 #### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu Standard
 Der Player sollte die 2. Version abspielen.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.xml)
+[XML Matroska Kapitel Datei](/files/EditionEntry/E1nonOrdered-E2OrderedDefault.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedDefault.mkv)
+[Matroska Datei](/files/EditionEntry/E1nonOrdered-E2OrderedDefault.mkv)
 
 #### Version 1 nicht reihenfolgentreu - Version 2 reihenfolgentreu unsichtbar Standard
 Alle getesteten Player spielen die 1. Version ab, weil die 2. Version unsichtbar ist. Ein Player sollte aber die 2. Version abspielen, weil sie die Standard Version ist.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.xml)
+[XML Matroska Kapitel Datei](/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.mkv)
+[Matroska Datei](/files/EditionEntry/E1nonOrdered-E2OrderedHiddenDefault.mkv)
 
 #### Version 1 nicht reihenfolgentreu unsichtbar - Version 2 reihenfolgentreu
 Der Player sollte die 2. Version abspielen, weil die 1. Version unsichtbar ist.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.xml)
+[XML Matroska Kapitel Datei](/files/EditionEntry/E1nonOrderedHidden-E2Ordered.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHidden-E2Ordered.mkv)
+[Matroska Datei](/files/EditionEntry/E1nonOrderedHidden-E2Ordered.mkv)
 
 #### Version 1 nicht reihenfolgentreu unsichtbar Standard - Version 2 reihenfolgentreu Standard
 Alle getesteten Player spielen die 2. Version ab, weil die 1. Version unsichtbar ist. Ein Player sollte aber die 1. Version abspielen, weil sie die erste Standard Version ist.
 
-[XML Matroska Kapitel Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
+[XML Matroska Kapitel Datei](/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.xml)
 
-[Matroska Datei](https://github.com/hubblec4/Matroska-Playback/blob/master/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
+[Matroska Datei](/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
 
 ## Versions Name
 Leider fehlt ein solches Unterelement in der Versionsstruktur und man muss die Matroska Tags benutzen.
