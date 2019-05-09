@@ -14,8 +14,8 @@ This behavior is very useful/important for creating Matroska Menu structures bas
 #### Presentation of the nested chapters in the player
 Most players use a "+" before the chapter name to indicate the level of nesting. A chapter which is in the 2nd nesting level has two "+" in front of the name.
 
-Parent Chapter
-+Nested Chapter Level 1
+Parent Chapter  
++Nested Chapter Level 1  
 ++Nested Chapter Level 2
 
 This is the most common form when all chapters are displayed on one level. For example in a popup menu.
