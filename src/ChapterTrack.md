@@ -1,19 +1,19 @@
-# Matroska ChapterTrack - Spurenauswahl per Kapitel
-Das `ChapterTrack` Element kann nur in [Reihenfolgentreuen Kapiteln](OrderedChapters_ger.md) verwendet werden. Ist dieses Element nicht vorhanden, so werden alle Spuren für das Kapitel verfügbar sein. Für alle Spuren, die für ein Kapitel verwendet werden sollen, muss die entsprechende Spur UID im `ChapterTrackNumber` Element angegeben werden. Die Bezeichnung `ChapterTrackNumber` lässt vermuten, dass eine Spur Nummer verwendet werden soll, dem ist aber nicht so. Es muss die SpurUID verwendet werden.
+# Matroska ChapterTrack - Track selection per chapter
+The `ChapterTrack` element can only be used in [Ordered Chapters](OrderedChapters.md). If this element is not present, all the tracks will be available for the chapter. For all tracks to be used for a chapter, the corresponding track UID must be specified in the `ChapterTrackNumber` element. The term `ChapterTrackNumber` suggests that a track number should be used, but that is not the case. The track UID must be used.
 
-Es gibt leider sehr wenig Information zu diesem Element und in der Praxis ist mir kein Player bekannt der das untersützt.
+Unfortunately, there is very little information about this element and in practice I do not know of a player that supports it.
 
-Die Idee ist, für verschiedene [Versionen](EditionEntry_ger.md) nur die gewünschten Spuren zu verwenden. Es könnte so ähnlich benutzt werden wie [TRACKSETEX](TRACKSETEX_ger.md). Jedoch kann nur ein Spuren-Set je Kapitel angelegt werden. Außerdem sollten alle Kapitel einer [Version](EditionEntry_ger.md) das gleiche Spuren-Set verwenden.
+The idea is to use only the desired tracks for different [Editions](EditionEntry.md). It could be used in a similar way to [TRACKSETEX](TRACKSETEX.md). However, only one track-set per chapter can be created. In addition, all chapters of an [Edition](EditionEntry.md) should use the same track-set.
 
-### Test Dateien
-In der Matroska Datei befinden sich zwei [reihenfolgentreue Versionen](EditionEntry_ger.md) mit je einem [Reihenfolgentreuen Kapitel](OrderedChapters_ger.md). Die Dauer des Kapitels ist gleich der Gesamtdauer der Datei. Es gibt zwei Video- und Audiospuren, sowie 4 Untertitelspuren.
+### Test files
+In the Matroska file there are two [Ordered Editions](EditionEntry.md), each with an [Ordered Chapter](OrderedChapters.md). The duration of the chapter is equal to the total duration of the file. There are two video and audio tracks, as well as 4 subtitle tracks.
 
-In der ersten [Version](EditionEntry_ger.md) sollen nur die 1. Videospur, die 1. Audiospur und die 1. Untertitelspur verwendet werden. In der zweiten [Version](EditionEntry_ger.md) sollen nur die 2. Videospur, die 2. Audiospur und die 3. Untertitelspur verwendet werden.
+In the first [Edition](EditionEntry.md) only the first video track, the first audio track and the first subtitle track should be used. In the second [Edition](EditionEntry.md) only the second video track, the second audio track and the third subtitle track should be used.
 
-Ein Player wählt nur diese Spuren aus und benutzt sie für die Wiedergabe.
+A player selects only these tracks and uses them for playback.
 
-Sollten mehrere Spuren eines Typs(zum Beispiel 3 Audiospuren) ausgewählt worden sein, dann sollte immer die erste Spur jedes Typs für die Wiedergabe verwendet werden. Ist bei einer der ausgewählten Spuren der `FlagDefault` Schalter aktiviert dann sollte diese Spur für die Wiedergabe benutzt werden. Manche Player können Spuren anhand der Sprache auswählen, und sollte eine Spur mit der bevorzugten Sprache vorhanden sein, dann wird diese für die Wiedergabe verwendet.
+If multiple tracks of one type (for example, 3 audio tracks) have been selected, then the first track of each type should always be used for playback. If the `FlagDefault` flag is activated on one of the selected tracks, then that track should be used for playback. Some players can select tracks based on language, and if a track with the preferred language is present, it will be used for playback.
 
-[XML Matroska Kapitel Datei](/files/ChapterTrack/ChapterTrack.xml)
+[XML Matroska Chapters file](/files/ChapterTrack/ChapterTrack.xml)
 
-[Matroska Datei](/files/ChapterTrack/ChapterTrack.mkv)
+[Matroska file](/files/ChapterTrack/ChapterTrack.mkv)
