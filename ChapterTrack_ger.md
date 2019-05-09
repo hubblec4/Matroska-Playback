@@ -14,4 +14,4 @@ Ein Player wählt nur diese Spuren aus und benutzt sie für die Wiedergabe.
 
 Sollten mehrere Spuren eines Typs(zum Beispiel 3 Audiospuren) ausgewählt worden sein, dann sollte immer die erste Spur jedes Typs für die Wiedergabe verwendet werden. Ist bei einer der ausgewählten Spuren der `FlagDefault` Schalter aktiviert dann sollte diese Spur für die Wiedergabe benutzt werden. Manche Player können Spuren anhand der Sprache auswählen, und sollte eine Spur mit der bevorzugten Sprache vorhanden sein, dann wird diese für die Wiedergabe verwendet.
 
-[XML Matroska Kapitel Datei](/files/ChapterTrack/ChapterTrack.xml)
+[XML Matroska Kapitel Datei](files/ChapterTrack/ChapterTrack.xml)
