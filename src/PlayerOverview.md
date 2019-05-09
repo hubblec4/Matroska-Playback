@@ -18,4 +18,4 @@ Selection of Matroska Editions | yes | good | no internal Edition menu, very goo
 [Native Matroska menu](MatroskaMenu.md#native-matroska-menu)| no | |
 [Video Rotation](Rotate.md)| yes | very good | only with the Matroska Tags, `ProjectionPoseRoll` is not supported
 [TRACKSETEX](TRACKSETEX.md)| no | very good | only with the Haali Splitter
-[Track selection per chapter](ChapterTrack.md)| no | |
+[Tracks selection per chapter](ChapterTrack.md)| no | |
