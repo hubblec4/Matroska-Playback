@@ -13,7 +13,7 @@ Matroska properties | present | is working | comment
 [Matroska Editions](EditionEntry.md)| yes | very good |
 Selection of Matroska Editions | yes | good | no internal Edition menu, very good menu in the Splitter (LAV or Haali)
 [Matroska Hard-Linking](HardLinking.md)| yes | very good | Video track is perfectly seamlessly connected
-[Matroska Medium-Linking (Chapter-Segment-Linking)](ChapterSegmentLinking.md)| yes | good | `ChapterSegmentEditionUID` is not supported
+[Matroska Medium-Linking (Chapter-Segment-Linking)](ChapterSegmentLinking.md)| yes | very good | `ChapterSegmentEditionUID` is not supported
 [Matroska Soft-Linking (Matroska DVD menu)](MatroskaMenu.md#matroska-dvd-menu-matroska-soft-linking)| no | |
 [Native Matroska menu](MatroskaMenu.md#native-matroska-menu)| no | |
 [Video Rotation](Rotate.md)| yes | very good | only with the Matroska Tags, `ProjectionPoseRoll` is not supported
