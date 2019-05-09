@@ -3,7 +3,7 @@ Das `ChapterTrack` Element kann nur in [Reihenfolgentreuen Kapiteln](OrderedChap
 
 Es gibt leider sehr wenig Information zu diesem Element und in der Praxis ist mir kein Player bekannt der das untersützt.
 
-Die Idee ist, damit gezielt Spuren zu verwenden für verschiedene [Versionen](EditionEntry_ger.md). Es könnte so ähnlich benutzt werden wie [TRACKSETEX](TRACKSETEX_ger.md). Jedoch kann nur ein TrackSet je Kapitel angelegt werden.
+Die Idee ist, für verschiedene [Versionen](EditionEntry_ger.md) nur die gewünschten Spuren zu verwenden. Es könnte so ähnlich benutzt werden wie [TRACKSETEX](TRACKSETEX_ger.md). Jedoch kann nur ein Spuren-Set je Kapitel angelegt werden. Außerdem sollten alle Kapitel einer [Version](EditionEntry_ger.md) das gleiche Spuren-Set verwenden.
 
 ### Test Dateien
 In der Matroska Datei befinden sich zwei [reihenfolgentreue Versionen](EditionEntry_ger.md) mit je einem [Reihenfolgentreuen Kapitel](OrderedChapters_ger.md). Die Dauer des Kapitels ist gleich der Gesamtdauer der Datei. Es gibt zwei Video- und Audiospuren, sowie 4 Untertitelspuren.
