@@ -15,7 +15,7 @@ Dieses Verhalten ist sehr nützlich/wichtig für das Erstellen von Matroska Menu
 Die meisten Player benutzen ein "+" vor dem Kapitelnamen um das Level der Verschachtelung anzuzeigen. Ein Kapitel welches in der 2.ten Verschachtelungsebene liegt hat zwei "+" vor dem Namen.
 
 Eltern Kapitel  
-+Verschachteltes Kapitel Level 1
++Verschachteltes Kapitel Level 1  
 ++Verschachteltes Kapitel Level 2
 
 Dies ist die meist genutzte Form, wenn alle Kapitel auf einer Ebene dargestellt werden. Zum Beispiel in einem Popup Menü.
