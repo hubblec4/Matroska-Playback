@@ -4,6 +4,8 @@ This overview should show which players use which Matroska features.
 ## MPC-HC
 MPC-HC internally uses the LAV Filter/Splitter. This adds up the used Matroska properties. Furthermore, other external DirectShow filters can be used, such as the Haali Splitter, which can be used to further Matroska properties.
 
+[Test version is MPC-HC 1.8.6(clsid)](https://github.com/clsid2/mpc-hc/releases/tag/1.8.6)
+
 Matroska properties | present | is working | comment
 --------------------|:-------:|:----------:|----------
 [Basic Chapters](BasicChapters.md) | yes | very good |
