@@ -6,7 +6,7 @@ MPC-HC internally uses the LAV Filter/Splitter. This adds up the used Matroska p
 
 [Test version is MPC-HC 1.8.6(clsid)](https://github.com/clsid2/mpc-hc/releases/tag/1.8.6)
 
-Matroska properties | present | is working | comment
+Matroska features | present | is working | comment
 --------------------|:-------:|:----------:|----------
 [Basic Chapters](BasicChapters.md) | yes | very good |
 [Nested Chapters](NestedChapters.md) | yes | very good |
