@@ -21,3 +21,24 @@ Auswahl der Matroska Versionen | ja | gut | kein internes Versionen Menü, sehr 
 [Video Rotation](Rotate_ger.md)| ja | sehr gut | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
 [TRACKSETEX](TRACKSETEX_ger.md)| nein | sehr gut | nur mit dem Haali Splitter
 [Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
+
+## MPC-BE
+Für das Testen wird der interne Matroska Splitter verwendet. MPC-BE kann auch externe Splitter laden, wie zum Beispiel den LAV oder Haali Splitter und wäre dann wie der MPC-HC Player.
+
+Test Version ist MPC-BE.1.5.4.4545.x64
+
+Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
+---------------------|:---------:|:------------:|----------
+[Basis Kapitel](BasicChapters_ger.md)| ja | gut | keine Anzeige in der Zeitleiste, umständliche Kapitelauswahl in Untermenüs, Kapitel Schalter werden nicht beachtet
+[Verschachtelte Kapitel](NestedChapters_ger.md)| ja | gut | Kapitel Anzeige entspricht dem üblichen Standard
+[Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| nein | | nur Startzeiten werden verwendet
+[Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| nein | |
+[Matroska Versionen](EditionEntry_ger.md)| nein | | es wird immer die 1. Version verwendet
+Auswahl der Matroska Versionen | nein | |
+[Matroska Hard-Linking](HardLinking_ger.md)| nein | |
+[Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| nein | |
+[Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
+[Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| nein | |
+[Video Rotation](Rotate_ger.md)| ja | | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
+[TRACKSETEX](TRACKSETEX_ger.md)| nein | |
+[Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
