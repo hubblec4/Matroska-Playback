@@ -13,7 +13,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | sehr gut |
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut |
 [Matroska Versionen](EditionEntry_ger.md)| ja | sehr gut |
-Auswahl der Matroska Versionen | ja | gut | kein internes Versionen Menü, sehr gutes Menü im Splitter (LAV oder Haali)
+[Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | ja | gut | kein internes Versionen Menü, sehr gutes Menü im Splitter (LAV oder Haali)
 [Matroska Hard-Linking](HardLinking_ger.md)| ja | sehr gut | Videospur wird perfekt nahtlos verbunden
 [Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | sehr gut | `ChapterSegmentEditionUID` wird nicht unterstützt
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
@@ -34,7 +34,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| nein | | nur Startzeiten werden verwendet
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| nein | |
 [Matroska Versionen](EditionEntry_ger.md)| nein | | es wird immer die 1. Version verwendet
-Auswahl der Matroska Versionen | nein | |
+[Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | nein | |
 [Matroska Hard-Linking](HardLinking_ger.md)| nein | |
 [Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| nein | |
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
