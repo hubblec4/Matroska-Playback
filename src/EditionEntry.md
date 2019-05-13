@@ -24,7 +24,10 @@ The `EditionFlagDefault` element has to be moved to level 1 and then exists only
 ### My recommendation for a player
 The "first" Edition where the `EditionFlagDefault` element was found and has the value 1 is the default Edition. This Edition MUST be used even if it is hidden.
 
-A good Matroska player should have a quick-to-reach selection menu for the Editions. Similar to when you can change the audio track or subtitle track.
+### Editions selection in the player
+A good Matroska player should have a quick-to-reach selection menu for the Editions. Similar to when you can change the audio track or subtitle track.  
+LAV Splitter has a very good Edition menu.  
+![Editions menu](/files/EditionEntry/EditionMenu_LAV.jpg)
 
 ## Test files
 There are always two Editions and only the second is ordered and the third chapter is disabled. This lacks 10 seconds of video and you can see more quickly which Edition is being used after starting. I've prepared a few examples for the numerous possibilities that arise through the combinations of Edition flags.
