@@ -13,7 +13,7 @@ Matroska features | present | is working | comment
 [Ordered Chapters](OrderedChapters.md) | yes | very good |
 [Nested Ordered Chapters](NestedOrderedChapters.md) | yes | good |
 [Matroska Editions](EditionEntry.md)| yes | very good |
-Selection of Matroska Editions | yes | good | no internal Edition menu, very good menu in the Splitter (LAV or Haali)
+[Selection of Matroska Editions](EditionEntry.md#editions-selection-in-the-player) | yes | good | no internal Edition menu, very good menu in the Splitter (LAV or Haali)
 [Matroska Hard-Linking](HardLinking.md)| yes | very good | Video track is perfectly seamlessly connected
 [Matroska Medium-Linking (Chapter-Segment-Linking)](ChapterSegmentLinking.md)| yes | very good | `ChapterSegmentEditionUID` is not supported
 [Matroska Soft-Linking (Matroska DVD menu)](MatroskaMenu.md#matroska-dvd-menu-matroska-soft-linking)| no | |
