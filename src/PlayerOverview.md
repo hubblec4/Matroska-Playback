@@ -25,6 +25,8 @@ Matroska features | present | is working | comment
 ## MPC-BE
 For testing, the internal Matroska Splitter is used. MPC-BE can also load external splitters, such as the LAV or Haali Splitter, and then behave like the MPC-HC player.
 
+Test version is MPC-BE.1.5.4.4545.x64
+
 Matroska features | present | is working | comment
 ------------------|:-------:|:----------:|----------
 [Basic Chapters](BasicChapters.md) | yes | good | no display in the timeline, cumbersome chapter selection in submenus, chapter flags are ignored
