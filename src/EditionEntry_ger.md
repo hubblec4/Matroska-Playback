@@ -26,7 +26,7 @@ Die "erste" Version bei der das `EditionFlagDefault` Element gefunden wurde und 
 
 ### Versionen Auswahl im Player 
 Ein guter Matroska Player sollte ein schnell zu erreichendes Auswahlmenü für die Versionen besitzen. Ähnlich wie wenn man die Audiospur oder Untertitelspur wechseln kann.  
-LAV Splitter ein sehr gutes Versionen Menü.  
+LAV Splitter hat ein sehr gutes Versionen Menü.  
 ![Versionen Menü](/files/EditionEntry/EditionMenu_LAV.jpg)
 
 ## Test Dateien
