@@ -23,7 +23,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
 
 ## MPC-BE
-Für das Testen wird der interne Matroska Splitter verwendet. MPC-BE kann auch externe Splitter laden, wie zum Beispiel den LAV oder Haali Splitter und wäre dann wie der MPC-HC Player.
+Für das Testen wird der interne Matroska Splitter verwendet. MPC-BE kann auch externe Splitter laden, wie zum Beispiel den LAV oder Haali Splitter und würde sich dann wie der MPC-HC Player verhalten.
 
 Test Version ist MPC-BE.1.5.4.4545.x64
 
