@@ -24,7 +24,7 @@ Das `EditionFlagDefault` Element muss in die Ebene 1 verschoben werden und ist d
 ### Meine Empfehlung für einen Player
 Die "erste" Version bei der das `EditionFlagDefault` Element gefunden wurde und den Wert 1 hat, ist die Standard Verison. Diese Version MUSS dann verwendet werden auch wenn sie unsichtbar ist.
 
-### Versionen Auswahl im Player 
+### Versionen Auswahl im Player
 Ein guter Matroska Player sollte ein schnell zu erreichendes Auswahlmenü für die Versionen besitzen. Ähnlich wie wenn man die Audiospur oder Untertitelspur wechseln kann.  
 LAV Splitter hat ein sehr gutes Versionen Menü.  
 ![Versionen Menü](/files/EditionEntry/EditionMenu_LAV.jpg)
