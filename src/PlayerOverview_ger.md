@@ -11,7 +11,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Basis Kapitel](BasicChapters_ger.md)| ja | sehr gut |
 [Verschachtelte Kapitel](NestedChapters_ger.md)| ja | sehr gut |
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | sehr gut |
-[Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut |
+[Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut | nur Startzeiten werden verwendet
 [Matroska Versionen](EditionEntry_ger.md)| ja | sehr gut |
 [Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | ja | gut | kein internes Versionen Menü, sehr gutes Menü im Splitter (LAV oder Haali)
 [Matroska Hard-Linking](HardLinking_ger.md)| ja | sehr gut | Videospur wird perfekt nahtlos verbunden
@@ -40,5 +40,25 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
 [Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| nein | |
 [Video Rotation](Rotate_ger.md)| ja | | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
+[TRACKSETEX](TRACKSETEX_ger.md)| nein | |
+[Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
+
+## VLC
+Der VLC Player besitzt einen internen Matroska Demuxer/Splitter der von Matroska Gründer Steve Lhomme programmiert wurde.
+
+Test Version ist vlc-3.0.7-20190514-0510-win64
+
+Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
+---------------------|:---------:|:------------:|----------
+[Basis Kapitel](BasicChapters_ger.md)| ja | gut | Kapitelauswahl in einem Untermenü, Kapitel Schalter `ChapterFlagEnabled` wird nicht beachtet
+[Verschachtelte Kapitel](NestedChapters_ger.md)| ja | gut | Kapitel Anzeige entspricht dem üblichen Standard
+[Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | gut | Spieldauer ist nicht korrekt wenn deaktivierte Kapitel vorhanden sind
+[Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut | nur Startzeiten werden verwendet
+[Matroska Versionen](EditionEntry_ger.md)| ja | sehr gut |
+[Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | ja | schlecht | Versionen wechseln funktioniert nicht richtig
+[Matroska Hard-Linking](HardLinking_ger.md)| ja | gut | Probleme mit der Kapitel Anzeige, beim Serien-Intro-Abspann Test stütze VLC ab, Zeitleiste stimmt nicht
+[Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt, Probleme mit der Kapitel Anzeige
+[Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| ja | nicht mehr | funktionierte nur in einer sehr frühen Version des VLC
+[Video Rotation](Rotate_ger.md)| nein | |
 [TRACKSETEX](TRACKSETEX_ger.md)| nein | |
 [Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
