@@ -56,7 +56,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut | nur Startzeiten werden verwendet
 [Matroska Versionen](EditionEntry_ger.md)| ja | sehr gut |
 [Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | ja | schlecht | Versionen wechseln funktioniert nicht richtig
-[Matroska Hard-Linking](HardLinking_ger.md)| ja | gut | Probleme mit der Kapitel Anzeige, beim Serien-Intro-Abspann Test stütze VLC ab, Zeitleiste stimmt nicht
+[Matroska Hard-Linking](HardLinking_ger.md)| ja | gut | Probleme mit der Kapitel Anzeige, beim Serien-Intro-Abspann Test stürtze VLC ab, Zeitleiste stimmt nicht
 [Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt, Probleme mit der Kapitel Anzeige
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| ja | nicht mehr | funktionierte nur in einer sehr frühen Version des VLC
 [Video Rotation](Rotate_ger.md)| nein | |
