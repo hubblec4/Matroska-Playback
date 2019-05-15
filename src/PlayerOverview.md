@@ -11,7 +11,7 @@ Matroska features | present | is working | comment
 [Basic Chapters](BasicChapters.md) | yes | very good |
 [Nested Chapters](NestedChapters.md) | yes | very good |
 [Ordered Chapters](OrderedChapters.md) | yes | very good |
-[Nested Ordered Chapters](NestedOrderedChapters.md) | yes | good |
+[Nested Ordered Chapters](NestedOrderedChapters.md) | yes | good | only start times are used
 [Matroska Editions](EditionEntry.md)| yes | very good |
 [Selection of Matroska Editions](EditionEntry.md#editions-selection-in-the-player) | yes | good | no internal Edition menu, very good menu in the Splitter (LAV or Haali)
 [Matroska Hard-Linking](HardLinking.md)| yes | very good | Video track is perfectly seamlessly connected
