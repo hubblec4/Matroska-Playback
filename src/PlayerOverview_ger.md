@@ -75,7 +75,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Verschachtelte Kapitel](NestedChapters_ger.md)| nein | |
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | gut | Spieldauer ist nicht korrekt wenn deaktivierte Kapitel vorhanden sind
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| nein | |
-[Matroska Versionen](EditionEntry_ger.md)| ja | gut | Welche Version verwendet wird ist nicht ersichtlich
+[Matroska Versionen](EditionEntry_ger.md)| ja | gut | welche Version verwendet wird ist nicht ersichtlich
 [Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | nein | |
 [Matroska Hard-Linking](HardLinking_ger.md)| nein | |
 [Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird unterstützt
