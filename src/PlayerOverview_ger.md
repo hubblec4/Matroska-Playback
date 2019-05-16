@@ -63,3 +63,24 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Video Rotation](Rotate_ger.md)| nein | |
 [TRACKSETEX](TRACKSETEX_ger.md)| nein | |
 [Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
+
+## mpv
+Der [mpv Player](https://mpv.io) ist ein Open-Source Projekt an dem zur Zeit sehr viel gearbeitet wird.
+
+Test Version ist mpv-x86_64-20190513-git-64cdc36
+
+Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
+---------------------|:---------:|:------------:|----------
+[Basis Kapitel](BasicChapters_ger.md)| ja | schlecht | kein Kapitelauswahl Menü, keine Kapitelnamen in der Zeitleiste, Kapitel Schalter `ChapterFlagEnabled` und `ChapterFlagHidden` werden nicht beachtet
+[Verschachtelte Kapitel](NestedChapters_ger.md)| nein | |
+[Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | gut | Spieldauer ist nicht korrekt wenn deaktivierte Kapitel vorhanden sind
+[Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| nein | |
+[Matroska Versionen](EditionEntry_ger.md)| ja | gut | Welche Version verwendet wird ist nicht ersichtlich
+[Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | nein | |
+[Matroska Hard-Linking](HardLinking_ger.md)| nein | |
+[Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird unterstützt
+[Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
+[Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| nein | |
+[Video Rotation](Rotate_ger.md)| nein | |
+[TRACKSETEX](TRACKSETEX_ger.md)| nein | |
+[Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
