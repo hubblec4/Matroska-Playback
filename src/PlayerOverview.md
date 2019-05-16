@@ -57,7 +57,7 @@ Matroska features | present | is working | comment
 [Matroska Editions](EditionEntry.md) | yes | very good |
 [Selection of Matroska Editions](EditionEntry.md#editions-selection-in-the-player) | yes | bad | Switching Editions does not work properly
 [Matroska Hard-Linking](HardLinking.md) | yes | good | Problems with the chapter display, the series-intro-credits test crashes VLC, timeline is not correct
-[Matroska Medium-Linking (Chapter-Segment-Linking](ChapterSegmentLinking.md) | yes | good | `ChapterSegmentEditionUID` is not supported, problems with chapter display
+[Matroska Medium-Linking (Chapter-Segment-Linking)](ChapterSegmentLinking.md) | yes | good | `ChapterSegmentEditionUID` is not supported, problems with chapter display
 [Matroska Soft-Linking (Matroska DVD menu)](MatroskaMenu.md#matroska-dvd-menu-matroska-soft-linking) | yes | no more | only worked in a very early version of the VLC
 [Native Matroska menu](MatroskaMenu.md#native-matroska-menu) | yes | very good |
 [Video Rotation](Rotate.md) | no | |
