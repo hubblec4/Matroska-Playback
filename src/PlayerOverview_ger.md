@@ -76,7 +76,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | gut | Spieldauer ist nicht korrekt wenn deaktivierte Kapitel vorhanden sind
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| nein | |
 [Matroska Versionen](EditionEntry_ger.md)| ja | gut | welche Version verwendet wird ist nicht ersichtlich
-[Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | ja | gut | umständlich, ein mpv Kommando muss benutzt werden
+[Auswahl der Matroska Versionen](EditionEntry_ger.md#versionen-auswahl-im-player) | ja | schlecht | umständlich, ein mpv Kommando muss benutzt werden
 [Matroska Hard-Linking](HardLinking_ger.md)| nein | |
 [Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird unterstützt
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |

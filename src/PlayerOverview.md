@@ -76,7 +76,7 @@ Matroska features | present | is working | comment
 [Ordered Chapters](OrderedChapters.md) | yes | good | Playing time is not correct if there are deactivated chapters
 [Nested Ordered Chapters](NestedOrderedChapters.md) | no | |
 [Matroska Editions](EditionEntry.md) | yes | good | which Edition is used is not apparent
-[Selection of Matroska Editions](EditionEntry.md#editions-selection-in-the-player) | yes | good | awkward, a mpv command must be used
+[Selection of Matroska Editions](EditionEntry.md#editions-selection-in-the-player) | yes | bad | awkward, a mpv command must be used
 [Matroska Hard-Linking](HardLinking.md)| no | |
 [Matroska Medium-Linking (Chapter-Segment-Linking)](ChapterSegmentLinking.md) | yes | good | `ChapterSegmentEditionUID` is supported
 [Matroska Soft-Linking (Matroska DVD menu)](MatroskaMenu.md#matroska-dvd-menu-matroska-soft-linking)| no | |
