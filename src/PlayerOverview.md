@@ -42,3 +42,24 @@ Matroska features | present | is working | comment
 [Video Rotation](Rotate.md)| yes | very good | only with the Matroska Tags, `ProjectionPoseRoll` is not supported
 [TRACKSETEX](TRACKSETEX.md)| no | |
 [Tracks selection per chapter](ChapterTrack.md)| no | |
+
+## VLC
+The VLC player has an internal Matroska Demuxer/Splitter programmed by Matroska founder Steve Lhomme.
+
+Test version is vlc-3.0.7-20190514-0510-win64
+
+Matroska features | present | is working | comment
+------------------|:-------:|:----------:|----------
+[Basic Chapters](BasicChapters.md) | yes | good | Chapter selection in a submenu, Chapter flag `ChapterFlagEnabled` is ignored
+[Nested Chapters](NestedChapters.md) | yes | good | Chapter display corresponds to the usual standard
+[Ordered Chapters](OrderedChapters.md) | yes | good | Playing time is not correct if there are deactivated chapters
+[Nested Ordered Chapters](NestedOrderedChapters.md) | yes | good | only start times are used
+[Matroska Editions](EditionEntry.md) | yes | very good |
+[Selection of Matroska Editions](EditionEntry.md#editions-selection-in-the-player) | yes | bad | Switching Editions does not work properly
+[Matroska Hard-Linking](HardLinking.md) | yes | good | Problems with the chapter display, the series-intro-credits test crashes VLC, timeline is not correct
+[Matroska Medium-Linking (Chapter-Segment-Linking](ChapterSegmentLinking.md) | yes | good | `ChapterSegmentEditionUID` is not supported, problems with chapter display
+[Matroska Soft-Linking (Matroska DVD menu)](MatroskaMenu.md#matroska-dvd-menu-matroska-soft-linking) | yes | no more | only worked in a very early version of the VLC
+[Native Matroska menu](MatroskaMenu.md#native-matroska-menu) | yes | very good |
+[Video Rotation](Rotate.md) | no | |
+[TRACKSETEX](TRACKSETEX.md) | no | |
+[Tracks selection per chapter](ChapterTrack.md) | no | |
