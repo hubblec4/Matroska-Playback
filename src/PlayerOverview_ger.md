@@ -59,6 +59,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Matroska Hard-Linking](HardLinking_ger.md)| ja | gut | Probleme mit der Kapitel Anzeige, beim Serien-Intro-Abspann Test stürtze VLC ab, Zeitleiste stimmt nicht
 [Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| ja | gut | `ChapterSegmentEditionUID` wird nicht unterstützt, Probleme mit der Kapitel Anzeige
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| ja | nicht mehr | funktionierte nur in einer sehr frühen Version des VLC
+[Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| ja | sehr gut |
 [Video Rotation](Rotate_ger.md)| nein | |
 [TRACKSETEX](TRACKSETEX_ger.md)| nein | |
 [Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
