@@ -25,7 +25,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 ## MPC-BE
 Für das Testen wird der interne Matroska Splitter verwendet. MPC-BE kann auch externe Splitter laden, wie zum Beispiel den LAV oder Haali Splitter und würde sich dann wie der MPC-HC Player verhalten.
 
-Test Version ist MPC-BE.1.5.4.4545.x64
+Test Version ist MPC-BE.1.5.6.6000.x64
 
 Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 ---------------------|:---------:|:------------:|----------
@@ -39,7 +39,7 @@ Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 [Matroska Medium-Linking (Kapitel-Segment-Verknüpfung)](ChapterSegmentLinking_ger.md)| nein | |
 [Matroska Soft-Linking (Matroska DVD Menü)](MatroskaMenu_ger.md#matroska-dvd-men%C3%BC-matroska-soft-linking)| nein | |
 [Natives Matroska Menü](MatroskaMenu_ger.md#natives-matroska-men%C3%BC)| nein | |
-[Video Rotation](Rotate_ger.md)| ja | | nur mit den Matroska Tags, `ProjectionPoseRoll` wird nicht unterstützt
+[Video Rotation](Rotate_ger.md)| ja | sehr gut |
 [TRACKSETEX](TRACKSETEX_ger.md)| nein | |
 [Spurenauswahl per Kapitel](ChapterTrack_ger.md)| nein | |
 
