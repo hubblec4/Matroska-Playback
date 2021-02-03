@@ -2,7 +2,7 @@
 Matroska offers the possibility to rotate a video track around the z-axis during playback. Of course, only if the player can read and process the instructions.
 
 ##  With the Matroska element `ProjectionPoseRoll`
-The element is included in the header of the video trackand can contain values from -180 to 180. With negative values the video is rotated counterclockwise and with positive values it is rotated clockwise.
+The element is included in the header of the video track and can contain values from -180 to 180. With negative values the video is rotated counterclockwise and with positive values it is rotated clockwise.
 
 The rotation result for the values -180 and 180 is equal. The frames are then upside down.
 
