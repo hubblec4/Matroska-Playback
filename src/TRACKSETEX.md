@@ -10,9 +10,9 @@ TRACKSETEX is not an official part of the Matroska Specs and can only be realize
 There are 6 parameters separated by a space. The last parameter is optional.
 
 1. Edition UID
-2. Video track UID oder track index
-3. Audio track UID oder track index
-4. Subtitle track UID oder track index
+2. Video track UID or track index
+3. Audio track UID or track index
+4. Subtitle track UID or track index
 5. 3-letter language code (eng,ger)
 6. an optional name for this TrackSet
 
