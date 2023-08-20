@@ -39,6 +39,12 @@ First, the player searches for this file in the folder. If the file exists, agai
 #### Forward search
 The process is similar to the "Backward search". However, the `NextUID` element must always be examined.
 
+#### Endless loop
+It is possible (and very easy) to create an infinite loop with Hard-Linking.
+To do this, simply link a file that is already included in the corresponding search direction.
+
+[Hard-Linking with endless loop test files](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWithEndlessLoop.zip)
+
 ### Further Hard-Linking possibilities
 All the players I tested seem to work on this principle. That's why I came up with more Hard-Linking options. In my [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) project you can easily set up these different variants.
 

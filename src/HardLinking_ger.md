@@ -39,6 +39,12 @@ Zuerst sucht der Player nach dieser Datei im Ordner. Wenn die Datei vorhanden is
 #### Vorwärts Suche
 Der Vorgang ist ähnlich wie bei der "Rückwärts Suche". Allerdings muss immer das `NextUID` Element untersucht werden.
 
+#### Endlos Schleife
+Es ist möglich(und sehr leicht) mit Hard-Linking eine Endlosschleife zu erzeugen.
+Dazu verlinkt man einfach eine Datei die bereits in der entsprechenden Suchrichtung enthalten ist.
+
+[Hard-Linking mit Endlosschleife Test Dateien](https://github.com/hubblec4/Matroska-Playback/blob/master/files/HardLinking/HardLinkingWithEndlessLoop.zip)
+
 ### Weitere Hard-Linking Möglichkeiten
 Alle Player die ich getestet habe, scheinen nach diesem Prinzip zu arbeiten. Daher habe ich mir weitere Hard-Linking Möglichkeiten einfallen lassen. In meinem [chapterEditor](https://forum.doom9.org/showthread.php?t=169984) Projekt kann man sehr bequem diese verschiedenen Varianten einrichten.
 
