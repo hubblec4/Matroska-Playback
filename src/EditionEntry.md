@@ -70,4 +70,4 @@ All tested players play the 2nd Edition, because the 1st Edition is hidden. A pl
 ## Edition Name
 Unfortunately, such a subelement is missing in the Edition structure and you have to use the Matroska Tags.
 
-For each Edition a `Tag` element must be used. In `Targets` elment, the corresponding UID is entered in the `TagEditionUID` element (in the XML only `EditionUID`). In the `SimpleTag` (in the XML only` Simple`) the official Matroska tag "TITLE" is entered in the `TagName` (in the XML only` Name`) and in the `TagString` element (in the XML only` String`) a name is saved for the Edition.
+For each Edition a `Tag` element must be used. In `Targets` element, the corresponding UID is entered in the `TagEditionUID` element (in the XML only `EditionUID`). In the `SimpleTag` (in the XML only` Simple`) the official Matroska tag "TITLE" is entered in the `TagName` (in the XML only` Name`) and in the `TagString` element (in the XML only` String`) a name is saved for the Edition.
