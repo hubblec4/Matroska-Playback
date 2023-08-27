@@ -68,8 +68,15 @@ Alle getesteten Player spielen die 2. Version ab, weil die 1. Version unsichtbar
 [Matroska Datei](/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
 
 ## Versions Name
-Leider fehlt ein solches Unterelement in der Versionsstruktur und man muss die Matroska Tags benutzen.
+Seit Matroska Version 5 gibt es ein `EditionDisplay` Element in dem man einen Namen und mehrere Sprachen für eine Version vergeben kann.
 
-Für jede Version muss ein `Tag` Element benutzt werden. Im `Targets` Element wird im `TagEditionUID` Element (im XML nur `EditionUID`) die entsprechende UID eingetragen. Im `SimpleTag` (im XML nur `Simple`) wird im `TagName` (im XML nur `Name`) der offizielle Matroska Tag "TITLE" eingegeben und im `TagString` Element (im XML nur `String`) wird ein Name für die Version gespeichert.
+[XML Matroska Kapitel Datei](/files/EditionDisplay/EditionsWithEditionDisplay.xml)
+
+[Matroska Datei](/files/EditionDisplay/EditionsWithEditionDisplay.mkv)
+
+Die Matroska Tags haben weiterhin die höchste Priorität und müssen zuerst untersucht werden.
+Wenn es einen passenden Tag für eine Version gibt, dann muss das `EditionDisplay` Element ignoriert werden.
+
+Beim Verwenden der Matroska Tags muss für jede Version ein `Tag` Element benutzt werden. Im `Targets` Element wird im `TagEditionUID` Element (im XML nur `EditionUID`) die entsprechende UID eingetragen. Im `SimpleTag` (im XML nur `Simple`) wird im `TagName` (im XML nur `Name`) der offizielle Matroska Tag "TITLE" eingegeben und im `TagString` Element (im XML nur `String`) wird ein Name für die Version gespeichert.
 
 In den Matroska Test Dateien haben die Versionen einen Namen, der in den Matroska Tags enthalten ist.
