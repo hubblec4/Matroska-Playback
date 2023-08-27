@@ -68,6 +68,13 @@ All tested players play the 2nd Edition, because the 1st Edition is hidden. A pl
 [Matroska file](/files/EditionEntry/E1nonOrderedHiddenDefault-E2OrderedDefault.mkv)
 
 ## Edition Name
-Unfortunately, such a subelement is missing in the Edition structure and you have to use the Matroska Tags.
+Since Matroska version 5 there is an `EditionDisplay` element in which you can enter a name and several languages for an `Edition`.
 
-For each Edition a `Tag` element must be used. In `Targets` element, the corresponding UID is entered in the `TagEditionUID` element (in the XML only `EditionUID`). In the `SimpleTag` (in the XML only` Simple`) the official Matroska tag "TITLE" is entered in the `TagName` (in the XML only` Name`) and in the `TagString` element (in the XML only` String`) a name is saved for the Edition.
+[XML Matroska Chapters file](/files/EditionDisplay/EditionsWithEditionDisplay.xml)
+
+[Matroska file](/files/EditionDisplay/EditionsWithEditionDisplay.mkv)
+
+The Matroska Tags still have the highest priority and must be examined first.
+If there is a matching Tag for an `Edition`, then the `EditionDisplay` element must be ignored.
+
+When using the Matroska Tags, a `Tag` element must be used for each `Edition`. In `Targets` element, the corresponding UID is entered in the `TagEditionUID` element (in the XML only `EditionUID`). In the `SimpleTag` (in the XML only` Simple`) the official Matroska tag "TITLE" is entered in the `TagName` (in the XML only` Name`) and in the `TagString` element (in the XML only` String`) a name is saved for the Edition.
