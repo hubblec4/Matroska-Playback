@@ -9,6 +9,7 @@ MPC-HC nutzt intern den LAV Filter/Splitter. Dadurch addieren sich die genutzen 
 Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 ---------------------|:---------:|:------------:|----------
 [Basis Kapitel](BasicChapters_ger.md)| ja | sehr gut |
+[Multiple Kapitelnamen](BasicChapters_ger.md#multiple-kapitelnamen)| nein | |
 [Verschachtelte Kapitel](NestedChapters_ger.md)| ja | sehr gut |
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | sehr gut |
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut | nur Startzeiten werden verwendet
@@ -30,6 +31,7 @@ Test Version ist MPC-BE.1.5.6.6000.x64
 Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 ---------------------|:---------:|:------------:|----------
 [Basis Kapitel](BasicChapters_ger.md)| ja | gut | keine Anzeige in der Zeitleiste, umständliche Kapitelauswahl in Untermenüs, Kapitel Schalter werden nicht beachtet
+[Multiple Kapitelnamen](BasicChapters_ger.md#multiple-kapitelnamen)| nein | |
 [Verschachtelte Kapitel](NestedChapters_ger.md)| ja | gut | Kapitel Anzeige entspricht dem üblichen Standard
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| nein | | nur Startzeiten werden verwendet
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| nein | |
@@ -51,6 +53,7 @@ Test Version ist vlc-3.0.7-20190514-0510-win64
 Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 ---------------------|:---------:|:------------:|----------
 [Basis Kapitel](BasicChapters_ger.md)| ja | gut | Kapitelauswahl in einem Untermenü, Kapitel Schalter `ChapterFlagEnabled` wird nicht beachtet
+[Multiple Kapitelnamen](BasicChapters_ger.md#multiple-kapitelnamen)| ja | gut | Alle Kapitelnamen werden zu einem String zusammengesetzt. Die Sprache wird nicht wirklich beachtet.
 [Verschachtelte Kapitel](NestedChapters_ger.md)| ja | gut | Kapitel Anzeige entspricht dem üblichen Standard
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | gut | Spieldauer ist nicht korrekt wenn deaktivierte Kapitel vorhanden sind
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| ja | gut | nur Startzeiten werden verwendet
@@ -72,6 +75,7 @@ Test Version ist mpv-x86_64-20190513-git-64cdc36
 Matroska Eigenschaft | vorhanden | funktioniert | Bemerkung
 ---------------------|:---------:|:------------:|----------
 [Basis Kapitel](BasicChapters_ger.md)| ja | schlecht | kein Kapitelauswahl Menü, keine Kapitelnamen in der Zeitleiste, Kapitel Schalter `ChapterFlagEnabled` und `ChapterFlagHidden` werden nicht beachtet
+[Multiple Kapitelnamen](BasicChapters_ger.md#multiple-kapitelnamen)| nein | |
 [Verschachtelte Kapitel](NestedChapters_ger.md)| nein | |
 [Reihenfolgentreue Kapitel](OrderedChapters_ger.md)| ja | gut | Spieldauer ist nicht korrekt wenn deaktivierte Kapitel vorhanden sind
 [Verschachtelte Reihenfolgentreue Kapitel](NestedOrderedChapters_ger.md)| nein | |

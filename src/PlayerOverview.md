@@ -9,6 +9,7 @@ MPC-HC internally uses the LAV Filter/Splitter. This adds up the used Matroska f
 Matroska features | present | is working | comment
 ------------------|:-------:|:----------:|----------
 [Basic Chapters](BasicChapters.md) | yes | very good |
+[Multiple chapter names](BasicChapters.md#multiple-chapter-names)| no | |
 [Nested Chapters](NestedChapters.md) | yes | very good |
 [Ordered Chapters](OrderedChapters.md) | yes | very good |
 [Nested Ordered Chapters](NestedOrderedChapters.md) | yes | good | only start times are used
@@ -30,6 +31,7 @@ Test version is MPC-BE.1.5.6.6000.x64
 Matroska features | present | is working | comment
 ------------------|:-------:|:----------:|----------
 [Basic Chapters](BasicChapters.md) | yes | good | no display in the timeline, cumbersome chapter selection in submenus, chapter flags are ignored
+[Multiple chapter names](BasicChapters.md#multiple-chapter-names)| no | |
 [Nested Chapters](NestedChapters.md) | yes | good | Chapter display corresponds to the usual standard
 [Ordered Chapters](OrderedChapters.md) | no | | only start times are used
 [Nested Ordered Chapters](NestedOrderedChapters.md) | no | |
@@ -51,6 +53,7 @@ Test version is vlc-3.0.7-20190514-0510-win64
 Matroska features | present | is working | comment
 ------------------|:-------:|:----------:|----------
 [Basic Chapters](BasicChapters.md) | yes | good | Chapter selection in a submenu, Chapter flag `ChapterFlagEnabled` is ignored
+[Multiple chapter names](BasicChapters.md#multiple-chapter-names)| yes | good | All chapter names are put together into a string. The language is not really taken into account.
 [Nested Chapters](NestedChapters.md) | yes | good | Chapter display corresponds to the usual standard
 [Ordered Chapters](OrderedChapters.md) | yes | good | Playing time is not correct if there are deactivated chapters
 [Nested Ordered Chapters](NestedOrderedChapters.md) | yes | good | only start times are used
@@ -72,6 +75,7 @@ Test version is mpv-x86_64-20190513-git-64cdc36
 Matroska features | present | is working | comment
 ------------------|:-------:|:----------:|----------
 [Basic Chapters](BasicChapters.md) | yes | bad | no chapter selection menu, no chapter names in the timeline, chapter flags `ChapterFlagEnabled` and` ChapterFlagHidden` are ignored
+[Multiple chapter names](BasicChapters.md#multiple-chapter-names)| no | |
 [Nested Chapters](NestedChapters.md) | no | |
 [Ordered Chapters](OrderedChapters.md) | yes | good | Playing time is not correct if there are deactivated chapters
 [Nested Ordered Chapters](NestedOrderedChapters.md) | no | |
